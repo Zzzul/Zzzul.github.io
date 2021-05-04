@@ -1,0 +1,45 @@
+html,
+body,
+pre,
+code,
+kbd,
+samp {
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  overflow: hidden;
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+
+.my-link:hover {
+  border-bottom: 2px solid white;
+  text-decoration: none;
+  -webkit-transform: translateY(3px);
+  transform: translateY(3px);
+}
+
+a {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+/* Mobile */
+.text-link-bottom {
+  font-size: 8px;
+}
+
+.title-bottom {
+  font-size: 10px;
+}
+
+.name-bottom {
+  font-size: 15px;
+}
