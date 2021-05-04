@@ -27,6 +27,23 @@ a {
   transition-timing-function: ease-out;
 }
 
+.my-card,
+.my-card-no-hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.my-card:hover,
+.my-card:focus,
+.my-card:active {
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
 /* Mobile */
 .text-link-bottom {
   font-size: 8px;
