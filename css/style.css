@@ -7,10 +7,6 @@ samp {
   font-family: "Press Start 2P", cursive;
 }
 
-body {
-  overflow: hidden;
-}
-
 .active {
   border-bottom: 2px solid white;
 }
