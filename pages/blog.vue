@@ -21,7 +21,7 @@
 
         <div
           class="col-sm-12 col-md-6 col-lg-4 mt-1"
-          v-for="article of articles"
+          v-for="article of posts"
           :key="article.slug"
         >
           <div
@@ -71,12 +71,12 @@ export default {
     ],
   },
   async asyncData({ $content, params }) {
-    const articles = await $content("blog", params.slug)
+    const posts = await $content("blog", params.slug)
       .only(["title", "description", "slug"])
-      .sortBy("createdAt", "asc")
+      .sortBy("createdAt", "desc")
       .fetch()
 
-    return { articles }
+    return { posts }
   },
 }
 </script>

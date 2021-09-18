@@ -12,7 +12,7 @@
             <li class="breadcrumb-item" aria-current="page">Home</li>
           </Breadcrumb>
 
-          <div class="col-md-12 pt-3">
+          <div class="col-md-12 mt-1">
             <div
               class="nes-container is-rounded with-title is-centered is-dark"
             >
@@ -97,7 +97,7 @@
     <div class="d-sm-block d-md-none m-0 p-0">
       <div class="container mb-0 pb-0">
         <div class="row mt-2">
-          <div class="col-md-12 mb-3">
+          <div class="col-md-12 mb-4">
             <nav
               style="--bs-breadcrumb-divider: '>'"
               aria-label="breadcrumb"
