@@ -1,3 +1,15 @@
+<template>
+  <div>
+    <Nuxt />
+  </div>
+</template>
+
+<style>
+/* global */
+body {
+  background-color: #212529;
+}
+
 html,
 body,
 pre,
@@ -7,7 +19,11 @@ samp {
   font-family: "Press Start 2P", cursive;
 }
 
-.active {
+a.nuxt-link-active {
+  border-bottom: none;
+}
+
+a.nuxt-link-exact-active {
   border-bottom: 2px solid white;
 }
 
@@ -44,6 +60,49 @@ a {
   transform: translateY(5px);
 }
 
+h1 {
+  font-size: 23px;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+p {
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 15px;
+}
+
+/* code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+} */
+
 /* Mobile */
 .text-link-bottom {
   font-size: 8px;
@@ -56,3 +115,4 @@ a {
 .name-bottom {
   font-size: 15px;
 }
+</style>
