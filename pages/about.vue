@@ -1,22 +1,61 @@
 <template>
   <div id="about">
-    <h1>About</h1>
+    <!-- desktop -->
+    <div class="d-none d-md-block mb-0">
+      <div class="container">
+        <div class="row justify-content-center pt-5">
+          <div class="col-md-12 mb-4">
+            <HeaderDesktop />
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio laboriosam
-      possimus rerum natus, nostrum quisquam id velit fugiat voluptatibus
-      temporibus aliquam quae hic obcaecati, ad neque nam cum, numquam magnam
-      recusandae qui totam nesciunt quo quis? Illum sit unde facilis blanditiis
-      eveniet repellat exercitationem impedit tempore sequi possimus quibusdam
-      ea inventore tempora voluptate, fuga saepe reiciendis id rerum, nemo
-      consequuntur eius reprehenderit nisi, harum animi! Nihil quibusdam
-      reprehenderit pariatur culpa. Repellendus doloribus, aperiam commodi
-      adipisci saepe quia fugit ut, aut quasi sint praesentium velit eius magni,
-      qui perspiciatis maxime voluptas.
-    </p>
+    <!-- global -->
+    <div class="container">
+      <div class="row">
+        <Breadcrumb>
+          <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
+          <li class="breadcrumb-item" aria-current="page">About</li>
+        </Breadcrumb>
+
+        <div class="col-md-12">
+          <div class="nes-container is-rounded is-dark is-centered p-4">
+            <p class="text-light" style="font-size: 12px">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Recusandae nisi quia incidunt eligendi dolores, delectus adipisci
+              laudantium voluptate ut blanditiis! Molestias nemo eius,
+              cupiditate voluptas eum numquam recusandae architecto esse.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-3 mb-3">
+          <p class="text-center text-light">~~~</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile -->
+    <div class="d-sm-block d-md-none m-0 p-0 mt-4">
+      <div class="container pt-5 mb-0 pb-0">
+        <HeaderMobile />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    title: "About",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "informasi tentang saya",
+      },
+    ],
+  },
+}
 </script>
