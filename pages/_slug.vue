@@ -25,9 +25,12 @@
         </Breadcrumb>
 
         <div class="col-md-12">
-          <div class="nes-container is-rounded is-dark p-4">
-            <div class="text-light" style="font-size: 12px">
+          <div class="nes-container is-rounded is-dark p-4 text-light">
+            <div v-if="!loading">
               <nuxt-content :document="post" />
+            </div>
+            <div class="text-center mt-3">
+              <h6>Loading..</h6>
             </div>
           </div>
         </div>
@@ -49,19 +52,11 @@
 
 <script>
 export default {
-  // async asyncData({ $content, params }) {
-  //   const post = await $content("blog", params.slug)
-  //     .sortBy("createdAt", "desc")
-  //     .fetch()
-
-  //   this.setParamsAsTitleAndDescription(params)
-
-  //   return { post }
-  // },
   data() {
     return {
       title: "",
       description: "",
+      loading: true,
       post: [],
     }
   },
@@ -83,6 +78,10 @@ export default {
     this.post = post
     this.title = post.title
     this.description = post.description
+
+    setInterval(() => {
+      this.loading = false
+    }, 500)
   },
 }
 </script>

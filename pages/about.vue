@@ -19,14 +19,26 @@
           <li class="breadcrumb-item" aria-current="page">About</li>
         </Breadcrumb>
 
-        <div class="col-md-12">
-          <div class="nes-container is-rounded is-dark is-centered p-4">
-            <p class="text-light" style="font-size: 12px">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae nisi quia incidunt eligendi dolores, delectus adipisci
-              laudantium voluptate ut blanditiis! Molestias nemo eius,
-              cupiditate voluptas eum numquam recusandae architecto esse.
-            </p>
+        <div class="col-md-12 mt-1">
+          <div
+            class="card my-card shadow-sm nes-container is-rounded p-0 is-dark"
+          >
+            <div class="card-body p-3">
+              <p class="my-2">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Pellentesque in ipsum id orci porta dapibus. Pellentesque in
+                ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget
+                consectetur sed, convallis at tellus. Vivamus suscipit tortor
+                eget felis porttitor volutpat. Nulla porttitor accumsan
+                tincidunt. Pellentesque in ipsum id orci porta dapibus. Mauris
+                blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur
+                non nulla sit amet nisl tempus convallis quis ac lectus.
+                Curabitur non nulla sit amet nisl tempus convallis quis ac
+                lectus. Cras ultricies ligula sed magna dictum porta. Curabitur
+                aliquet quam id dui posuere blandit. Curabitur non nulla sit
+                amet nisl tempus convallis quis ac lectus.
+              </p>
+            </div>
           </div>
         </div>
 
