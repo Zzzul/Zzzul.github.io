@@ -24,10 +24,13 @@
           >
             <div class="card-body p-3">
               <a href="#" style="font-size: 12px">Lorem ipsum dolor</a>
-              <p class="my-2" style="font-size: 9px">
+              <p class="my-2">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Minima, commodi!
               </p>
+
+              <a href="#" class="custom-href">Demo</a>
+              <a href="#" class="custom-href">Source</a>
             </div>
           </div>
         </div>
@@ -38,10 +41,13 @@
           >
             <div class="card-body p-3">
               <a href="#" style="font-size: 12px">Lorem ipsum dolor</a>
-              <p class="my-2" style="font-size: 9px">
+              <p class="my-2">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Minima, commodi!
               </p>
+
+              <a href="#" class="custom-href">Demo</a>
+              <a href="#" class="custom-href">Source</a>
             </div>
           </div>
         </div>
@@ -52,10 +58,13 @@
           >
             <div class="card-body p-3">
               <a href="#" style="font-size: 12px">Lorem ipsum dolor</a>
-              <p class="my-2" style="font-size: 9px">
+              <p class="my-2">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Minima, commodi!
               </p>
+
+              <a href="#" class="custom-href">Demo</a>
+              <a href="#" class="custom-href">Source</a>
             </div>
           </div>
         </div>

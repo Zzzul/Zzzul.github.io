@@ -22,7 +22,7 @@
 
               <section class="icon-list mt-4">
                 <!-- facebook -->
-                <a href="#">
+                <a href="#" target="blank">
                   <i
                     class="
                       nes-icon
@@ -37,7 +37,7 @@
                 </a>
 
                 <!-- instagram -->
-                <a href="#">
+                <a href="https://www.instagram.com/zzzzzul/" target="blank">
                   <i
                     class="
                       nes-icon
@@ -52,21 +52,24 @@
                 </a>
 
                 <!-- github -->
-                <a href="https://github.com/Zzzul">
+                <a href="https://github.com/Zzzul" target="blank">
                   <i
                     class="nes-icon mx-4 mt-3 mb-5 github is-medium nes-pointer"
                   ></i>
                 </a>
 
                 <!-- medium -->
-                <a href="#">
+                <a href="https://zzzul.medium.com/" target="blank">
                   <i
                     class="nes-icon mx-4 mt-3 mb-5 medium is-medium nes-pointer"
                   ></i>
                 </a>
 
                 <!-- linkedin -->
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/muhammad-zulfahmi/"
+                  target="blank"
+                >
                   <i
                     class="
                       nes-icon
@@ -122,27 +125,30 @@
 
               <section class="icon-list mt-4">
                 <!-- facebook -->
-                <a href="#">
+                <a href="#" target="blank">
                   <i class="nes-icon mx-1 mb-4 facebook nes-pointer"></i>
                 </a>
 
                 <!-- instagram -->
-                <a href="#">
+                <a href="https://www.instagram.com/zzzzzul/" target="blank">
                   <i class="nes-icon mx-1 mb-4 instagram nes-pointer"></i>
                 </a>
 
                 <!-- github -->
-                <a href="https://github.com/Zzzul">
+                <a href="https://github.com/Zzzul" target="blank">
                   <i class="nes-icon mx-1 mb-4 github nes-pointer"></i>
                 </a>
 
                 <!-- medium -->
-                <a href="#">
+                <a href="https://zzzul.medium.com/" target="blank">
                   <i class="nes-icon mx-1 mb-4 medium nes-pointer"></i>
                 </a>
 
                 <!-- linkedin -->
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/muhammad-zulfahmi/"
+                  target="blank"
+                >
                   <i class="nes-icon mx-1 mb-4 linkedin nes-pointer"></i>
                 </a>
               </section>
