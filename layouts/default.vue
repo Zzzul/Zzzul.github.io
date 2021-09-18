@@ -84,8 +84,9 @@ h6 {
   font-size: 13px;
 }
 
-p {
-  font-size: 12px;
+p,
+.custom-href {
+  font-size: 10px;
 }
 
 h1,
