@@ -19,53 +19,28 @@
           <li class="breadcrumb-item" aria-current="page">Project</li>
         </Breadcrumb>
 
-        <div class="col-sm-12 col-md-6 col-lg-4 mt-1">
+        <div
+          class="col-sm-12 col-md-6 col-lg-4 mt-1"
+          v-for="project of projects"
+          :key="project.slug"
+        >
           <div
             class="card my-card shadow-sm nes-container is-rounded p-0 is-dark"
           >
             <div class="card-body p-3">
-              <a href="#" style="font-size: 12px">Lorem ipsum dolor</a>
+              <p class="text-primary header-text">
+                {{ project.title }}
+              </p>
               <p class="my-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Minima, commodi!
+                {{ project.description }}
               </p>
 
-              <a href="#" class="custom-href">Demo</a>
-              <a href="#" class="custom-href">Source</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-4 mt-1">
-          <div
-            class="card my-card shadow-sm nes-container is-rounded p-0 is-dark"
-          >
-            <div class="card-body p-3">
-              <a href="#" style="font-size: 12px">Lorem ipsum dolor</a>
-              <p class="my-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Minima, commodi!
-              </p>
-
-              <a href="#" class="custom-href">Demo</a>
-              <a href="#" class="custom-href">Source</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-4 mt-1">
-          <div
-            class="card my-card shadow-sm nes-container is-rounded p-0 is-dark"
-          >
-            <div class="card-body p-3">
-              <a href="#" style="font-size: 12px">Lorem ipsum dolor</a>
-              <p class="my-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Minima, commodi!
-              </p>
-
-              <a href="#" class="custom-href">Demo</a>
-              <a href="#" class="custom-href">Source</a>
+              <a :href="project.demo" class="custom-href" target="blank"
+                >Demo</a
+              >
+              <a :href="project.source" class="custom-href" target="blank"
+                >Source</a
+              >
             </div>
           </div>
         </div>
@@ -95,6 +70,13 @@ export default {
         content: "kerjaan/project yang saya buat",
       },
     ],
+  },
+  async asyncData({ $content, params }) {
+    const projects = await $content("project", params.slug)
+      .sortBy("createdAt", "desc")
+      .fetch()
+
+    return { projects }
   },
 }
 </script>

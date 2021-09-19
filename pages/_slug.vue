@@ -26,11 +26,11 @@
 
         <div class="col-md-12">
           <div class="nes-container is-rounded is-dark p-4 text-light">
-            <div v-if="!loading">
-              <nuxt-content :document="post" />
-            </div>
-            <div class="text-center mt-3">
+            <div v-if="loading" class="text-center mt-3">
               <h6>Loading..</h6>
+            </div>
+            <div v-else>
+              <nuxt-content :document="post" />
             </div>
           </div>
         </div>

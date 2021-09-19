@@ -89,6 +89,15 @@ p,
   font-size: 10px;
 }
 
+.header-text {
+  font-size: 12px;
+}
+
+code,
+table {
+  font-size: 10px !important;
+}
+
 h1,
 h2,
 h3,

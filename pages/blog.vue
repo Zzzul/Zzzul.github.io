@@ -33,7 +33,7 @@
                 class="text-primary"
                 style="font-size: 12px"
               >
-                {{ article.title }}
+                <p class="header-text">{{ article.title }}</p>
               </nuxt-link>
 
               <p class="my-2" style="font-size: 9px">
