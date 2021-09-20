@@ -20,9 +20,7 @@
         </Breadcrumb>
 
         <div class="col-md-12 mt-1">
-          <div
-            class="card my-card shadow-sm nes-container is-rounded p-0 is-dark"
-          >
+          <div class="card shadow-sm nes-container is-rounded p-0 is-dark">
             <div class="card-body p-3">
               <p class="my-2">
                 Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.

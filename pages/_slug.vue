@@ -26,8 +26,30 @@
 
         <div class="col-md-12">
           <div class="nes-container is-rounded is-dark p-4 text-light">
-            <div v-if="loading" class="text-center mt-3">
-              <h6>Loading..</h6>
+            <div v-if="loading" class="text-center mt-3 mb-1">
+              <!-- <h6>Loading..</h6> -->
+              <div class="d-none d-md-block">
+                <!-- Desktop -->
+                <marquee
+                  behavior="alternate"
+                  onmouseover="this.stop()"
+                  onmouseout="this.start()"
+                  width="20%"
+                  direction="right"
+                  >Loading..
+                </marquee>
+              </div>
+
+              <!-- Mobile -->
+              <div class="d-sm-block d-md-none">
+                <marquee
+                  behavior="alternate"
+                  onmouseover="this.stop()"
+                  onmouseout="this.start()"
+                  direction="right"
+                  >Loading..
+                </marquee>
+              </div>
             </div>
             <div v-else>
               <nuxt-content :document="post" />
@@ -81,7 +103,7 @@ export default {
 
     setInterval(() => {
       this.loading = false
-    }, 500)
+    }, 1000)
   },
 }
 </script>
