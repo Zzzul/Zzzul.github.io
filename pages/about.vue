@@ -110,7 +110,7 @@
                         title="± 1 tahun"
                       >
                         <img
-                          src="~/assets/img/skills/Jquery.png"
+                          src="~/assets/img/skills/jquery.png"
                           alt="Laravel Logo"
                           width="30px"
                         />
