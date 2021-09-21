@@ -1,11 +1,10 @@
 <template>
-  <div class="col-md-12 mt-2 mb-4">
-    <nav
-      style="--bs-breadcrumb-divider: '>'"
-      aria-label="breadcrumb"
-      class="nes-container is-rounded is-dark"
-    >
-      <ol class="breadcrumb text-light" style="font-size: 12px">
+  <div class="col-md-12">
+    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+      <ol
+        class="breadcrumb bordered-without-shadow p-3 mb-5"
+        style="font-size: 12px"
+      >
         <slot />
       </ol>
     </nav>

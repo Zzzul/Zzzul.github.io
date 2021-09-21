@@ -1,170 +1,196 @@
 <template>
   <div id="home">
-    <!-- desktop -->
-    <div class="d-none d-md-block mb-0">
-      <div class="container">
-        <div class="row justify-content-center pt-5">
-          <div class="col-md-12 mb-4">
-            <HeaderDesktop />
-          </div>
+    <desktop-navigation />
 
-          <Breadcrumb>
-            <li class="breadcrumb-item" aria-current="page">Home</li>
-          </Breadcrumb>
+    <div class="container">
+      <div class="row mt-5">
+        <breadcrumb>
+          <li class="breadcrumb-item">Home</li>
+        </breadcrumb>
 
-          <div class="col-md-12 mt-1">
-            <div
-              class="nes-container is-rounded with-title is-centered is-dark"
-            >
-              <p class="title">Hi</p>
-              <h3 class="mt-4">I`m Muhammad Zulfahmi</h3>
-              <h4>Web Developer</h4>
+        <!-- Global loading -->
+        <div class="col-sm-12 mb-0" v-if="loading">
+          <div class="ph-item bordered mb-0 py-5">
+            <div class="ph-col-12">
+              <div class="ph-row">
+                <div class="ph-col-4 empty"></div>
+                <div class="ph-col-4 big"></div>
+                <div class="ph-col-4 empty"></div>
+                <div class="ph-col-4 empty"></div>
+                <div class="ph-col-4 big"></div>
+                <div class="ph-col-4 empty"></div>
 
-              <section class="icon-list mt-4">
-                <!-- facebook -->
-                <a href="#" target="blank">
-                  <i
-                    class="
-                      nes-icon
-                      mx-4
-                      mt-3
-                      mb-5
-                      facebook
-                      is-medium
-                      nes-pointer
-                    "
-                  ></i>
-                </a>
+                <div class="ph-col-12 big"></div>
+                <div class="ph-col-12 big"></div>
 
-                <!-- instagram -->
-                <a href="https://www.instagram.com/zzzzzul/" target="blank">
-                  <i
-                    class="
-                      nes-icon
-                      mx-4
-                      mt-3
-                      mb-5
-                      instagram
-                      is-medium
-                      nes-pointer
-                    "
-                  ></i>
-                </a>
+                <div class="ph-col-2 empty"></div>
+                <div class="ph-col-8 big"></div>
+                <div class="ph-col-2 empty"></div>
+              </div>
+            </div>
 
-                <!-- github -->
-                <a href="https://github.com/Zzzul" target="blank">
-                  <i
-                    class="nes-icon mx-4 mt-3 mb-5 github is-medium nes-pointer"
-                  ></i>
-                </a>
+            <!-- Loading -->
+            <div id="loading">
+              <!-- Desktop loading -->
+              <div class="d-none d-md-block">
+                <div class="ph-col-12">
+                  <div class="ph-row">
+                    <div class="ph-col-2 empty"></div>
+                    <div
+                      class="ph-picture ms-5 me-3"
+                      style="
+                        width: 50px;
+                        height: 50px;
+                        margin-left: 160px !important;
+                      "
+                    ></div>
+                    <div
+                      class="ph-picture me-3"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                    <div
+                      class="ph-picture me-3"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                    <div
+                      class="ph-picture me-3"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                    <div
+                      class="ph-picture me-3"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                    <div
+                      class="ph-picture me-3"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of loading desktop -->
 
-                <!-- medium -->
-                <a href="https://zzzul.medium.com/" target="blank">
-                  <i
-                    class="nes-icon mx-4 mt-3 mb-5 medium is-medium nes-pointer"
-                  ></i>
-                </a>
+              <!-- Mobile loading -->
+              <div class="d-sm-block d-md-none">
+                <div class="ph-col-12">
+                  <div class="ph-row">
+                    <div
+                      class="ph-picture ms-5 me-2"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                    <div
+                      class="ph-picture me-2"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                    <div
+                      class="ph-picture me-2"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                    <div
+                      class="ph-picture me-2"
+                      style="width: 50px; height: 50px"
+                    ></div>
 
-                <!-- linkedin -->
-                <a
-                  href="https://www.linkedin.com/in/muhammad-zulfahmi/"
-                  target="blank"
-                >
-                  <i
-                    class="
-                      nes-icon
-                      mx-4
-                      mt-3
-                      mb-5
-                      linkedin
-                      is-medium
-                      nes-pointer
-                    "
-                  ></i>
-                </a>
-              </section>
+                    <div class="ph-col-4 empty"></div>
+                    <div
+                      class="ph-picture me-2"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                    <div
+                      class="ph-picture me-2"
+                      style="width: 50px; height: 50px"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of mobile loading -->
             </div>
           </div>
+          <!-- End of ph-item -->
+        </div>
+        <!-- End of global loading -->
 
-          <div class="col-md-12 mt-5 mb-3">
-            <p class="text-center text-light">~~~</p>
+        <!-- Card -->
+        <div class="col-md-12" id="main-content" v-else>
+          <div class="card bordered-hover">
+            <div class="card-body p-5 text-center">
+              <h5 class="mb-3">Hai,</h5>
+              <h3 class="mb-3">Saya Mohammad Zulfahmi</h3>
+
+              <h4 class="mb-4">Web Developer</h4>
+
+              <a href="#" class="text-decoration-none" target="blank">
+                <img
+                  src="~/assets/img/social-media/fb.jpg"
+                  class="mb-2 socmed-icon"
+                  alt="facebook logo"
+                />
+              </a>
+
+              <a
+                href="https://www.instagram.com/zzzzzul/"
+                class="text-decoration-none"
+                target="blank"
+              >
+                <img
+                  src="~/assets/img/social-media/ig.jpg"
+                  class="mb-2 socmed-icon"
+                  alt="Instagram logo"
+                />
+              </a>
+
+              <a
+                href="https://github.com/Zzzul"
+                class="text-decoration-none"
+                target="blank"
+              >
+                <img
+                  src="~/assets/img/social-media/github.jpg"
+                  class="mb-2 socmed-icon"
+                  alt="github logo"
+                />
+              </a>
+
+              <a href="#" class="text-decoration-none" target="blank">
+                <img
+                  src="~/assets/img/social-media/medium.jpg"
+                  class="mb-2 socmed-icon"
+                  alt="medium logo"
+                />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/muhammad-zulfahmi/"
+                class="text-decoration-none"
+                target="blank"
+              >
+                <img
+                  src="~/assets/img/social-media/linkedin.jpg"
+                  class="mb-2 socmed-icon"
+                  alt="linkedin logo"
+                />
+              </a>
+
+              <a
+                href="mailto:mzulfahmi807@gmail.com"
+                class="text-decoration-none"
+                target="blank"
+              >
+                <img
+                  src="~/assets/img/social-media/gmail.jpg"
+                  class="mb-2 socmed-icon"
+                  alt="gmail logo"
+                  width="60px"
+                />
+              </a>
+            </div>
           </div>
         </div>
+
+        <div class="col-md-12 text-center my-5">~~~</div>
       </div>
     </div>
 
-    <!-- mobile -->
-    <div class="d-sm-block d-md-none m-0 p-0">
-      <div class="container mb-0 pb-0">
-        <div class="row mt-2">
-          <div class="col-md-12 mb-4">
-            <nav
-              style="--bs-breadcrumb-divider: '>'"
-              aria-label="breadcrumb"
-              class="nes-container is-rounded is-dark"
-            >
-              <ol class="breadcrumb text-light" style="font-size: 12px">
-                <li class="breadcrumb-item" aria-current="page">Home</li>
-              </ol>
-            </nav>
-          </div>
-
-          <div class="col-md-12">
-            <div
-              class="
-                nes-container
-                is-rounded
-                with-title
-                is-centered is-dark
-                with-title
-              "
-            >
-              <p class="title title-bottom">Hi</p>
-              <h5 class="mt-4 mb-2 name-bottom">I`m Muhammad Zulfahmi</h5>
-              <h6 style="font-size: 10px">Web Developer</h6>
-
-              <section class="icon-list mt-4">
-                <!-- facebook -->
-                <a href="#" target="blank">
-                  <i class="nes-icon mx-1 mb-4 facebook nes-pointer"></i>
-                </a>
-
-                <!-- instagram -->
-                <a href="https://www.instagram.com/zzzzzul/" target="blank">
-                  <i class="nes-icon mx-1 mb-4 instagram nes-pointer"></i>
-                </a>
-
-                <!-- github -->
-                <a href="https://github.com/Zzzul" target="blank">
-                  <i class="nes-icon mx-1 mb-4 github nes-pointer"></i>
-                </a>
-
-                <!-- medium -->
-                <a href="https://zzzul.medium.com/" target="blank">
-                  <i class="nes-icon mx-1 mb-4 medium nes-pointer"></i>
-                </a>
-
-                <!-- linkedin -->
-                <a
-                  href="https://www.linkedin.com/in/muhammad-zulfahmi/"
-                  target="blank"
-                >
-                  <i class="nes-icon mx-1 mb-4 linkedin nes-pointer"></i>
-                </a>
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-md-12 mt-2">
-            <p class="text-center text-light">~~~</p>
-          </div>
-        </div>
-
-        <HeaderMobile />
-      </div>
-    </div>
+    <mobile-navigation />
   </div>
 </template>
 
@@ -179,6 +205,16 @@ export default {
         content: "my Website portofolio",
       },
     ],
+  },
+  data() {
+    return {
+      loading: true,
+    }
+  },
+  mounted() {
+    setInterval(() => {
+      this.loading = false
+    }, 500)
   },
 }
 </script>
