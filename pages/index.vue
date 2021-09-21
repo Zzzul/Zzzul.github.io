@@ -5,7 +5,9 @@
     <div class="container">
       <div class="row mt-5">
         <breadcrumb>
-          <li class="breadcrumb-item">Home</li>
+          <li class="breadcrumb-item active text-secondary" aria-current="page">
+            Home
+          </li>
         </breadcrumb>
 
         <!-- Global loading -->
@@ -29,81 +31,78 @@
               </div>
             </div>
 
-            <!-- Loading -->
-            <div id="loading">
-              <!-- Desktop loading -->
-              <div class="d-none d-md-block">
-                <div class="ph-col-12">
-                  <div class="ph-row">
-                    <div class="ph-col-2 empty"></div>
-                    <div
-                      class="ph-picture ms-5 me-3"
-                      style="
-                        width: 50px;
-                        height: 50px;
-                        margin-left: 160px !important;
-                      "
-                    ></div>
-                    <div
-                      class="ph-picture me-3"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                    <div
-                      class="ph-picture me-3"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                    <div
-                      class="ph-picture me-3"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                    <div
-                      class="ph-picture me-3"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                    <div
-                      class="ph-picture me-3"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                  </div>
+            <!-- Desktop loading -->
+            <div class="d-none d-md-block">
+              <div class="ph-col-12">
+                <div class="ph-row">
+                  <div class="ph-col-2 empty"></div>
+                  <div
+                    class="ph-picture ms-5 me-3"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      margin-left: 163px !important;
+                    "
+                  ></div>
+                  <div
+                    class="ph-picture me-3"
+                    style="width: 50px; height: 50px"
+                  ></div>
+                  <div
+                    class="ph-picture me-3"
+                    style="width: 50px; height: 50px"
+                  ></div>
+                  <div
+                    class="ph-picture me-3"
+                    style="width: 50px; height: 50px"
+                  ></div>
+                  <div
+                    class="ph-picture me-3"
+                    style="width: 50px; height: 50px"
+                  ></div>
+                  <div
+                    class="ph-picture me-3"
+                    style="width: 50px; height: 50px"
+                  ></div>
                 </div>
               </div>
-              <!-- End of loading desktop -->
-
-              <!-- Mobile loading -->
-              <div class="d-sm-block d-md-none">
-                <div class="ph-col-12">
-                  <div class="ph-row">
-                    <div
-                      class="ph-picture ms-5 me-2"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                    <div
-                      class="ph-picture me-2"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                    <div
-                      class="ph-picture me-2"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                    <div
-                      class="ph-picture me-2"
-                      style="width: 50px; height: 50px"
-                    ></div>
-
-                    <div class="ph-col-4 empty"></div>
-                    <div
-                      class="ph-picture me-2"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                    <div
-                      class="ph-picture me-2"
-                      style="width: 50px; height: 50px"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <!-- End of mobile loading -->
             </div>
+            <!-- End of loading desktop -->
+
+            <!-- Mobile loading -->
+            <div class="d-sm-block d-md-none">
+              <div class="ph-col-12">
+                <div class="ph-row">
+                  <div
+                    class="ph-picture ms-5 me-2"
+                    style="width: 50px; height: 50px; margin-left: 4px"
+                  ></div>
+                  <div
+                    class="ph-picture me-2"
+                    style="width: 50px; height: 50px"
+                  ></div>
+                  <div
+                    class="ph-picture me-2"
+                    style="width: 50px; height: 50px"
+                  ></div>
+                  <div
+                    class="ph-picture me-2"
+                    style="width: 50px; height: 50px"
+                  ></div>
+
+                  <div class="ph-col-4 empty"></div>
+                  <div
+                    class="ph-picture me-2"
+                    style="width: 50px; height: 50px"
+                  ></div>
+                  <div
+                    class="ph-picture me-2"
+                    style="width: 50px; height: 50px"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <!-- End of mobile loading -->
           </div>
           <!-- End of ph-item -->
         </div>

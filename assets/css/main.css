@@ -68,8 +68,8 @@ a{
 }
 
 .socmed-icon:hover{
-    -webkit-transform: translateY(3px);
-    transform: translateY(3px);
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
 }
 
 .active-uri{
@@ -85,5 +85,5 @@ a.nuxt-link-active {
 }
 
 a.nuxt-link-exact-active {
-  font-weight: bold;
+  border-bottom: 3px solid black;
 }

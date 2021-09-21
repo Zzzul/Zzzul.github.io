@@ -2,7 +2,12 @@
   <div class="d-none d-md-block">
     <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5 bordered">
       <div class="container py-2">
-        <nuxt-link class="navbar-brand" to="/">Zul</nuxt-link>
+        <nuxt-link
+          class="navbar-brand"
+          to="/"
+          style="border-bottom: none !important"
+          >Zul</nuxt-link
+        >
         <button
           class="navbar-toggler bordered-without-shadow"
           type="button"

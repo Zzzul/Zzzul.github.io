@@ -10,7 +10,7 @@
           to="/"
           style="font-size: 12px"
         >
-          <span class="px-1 active-uri">H</span>
+          <span class="px-1">H</span>
           <br />
           <small class="m-0 p-0 text-link-bottom">Home</small>
         </nuxt-link>

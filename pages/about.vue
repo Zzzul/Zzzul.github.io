@@ -15,7 +15,7 @@
         <div class="col-md-12 mb-5">
           <div class="card bordered-hover">
             <div class="card-body p-5 text-center">
-              <h5 class="mb-3 text-primary">#Tentang Saya</h5>
+              <h5 class="mb-4 text-primary">#Tentang Saya</h5>
               <p>
                 Hai, saya Mohammad Zulfahmi. Saat ini saya adalah seorang
                 mahasiswa semester akhir jurusan Teknik Informatika di
@@ -47,10 +47,10 @@
         </div>
 
         <!-- Skills -->
-        <div class="col-md-12" id="skills">
+        <div class="col-md-12 mb-4" id="skills">
           <div class="card bordered-hover">
-            <div class="card-body p-5">
-              <h5 class="text-primary text-center mb-3 font-weigth-bold">
+            <div class="card-body ps-0 pe-5 py-5">
+              <h5 class="text-primary text-center mb-4 font-weigth-bold">
                 #Keahlian
               </h5>
 
