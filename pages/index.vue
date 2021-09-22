@@ -107,15 +107,5 @@ export default {
       },
     ],
   },
-  data() {
-    return {
-      loading: true,
-    }
-  },
-  mounted() {
-    setInterval(() => {
-      this.loading = false
-    }, 500)
-  },
 }
 </script>

@@ -47,7 +47,6 @@
 
 <script>
 export default {
-  components: { Footer },
   async asyncData({ $content, params }) {
     const posts = await $content("posts", params.slug)
       .only(["title", "description", "slug", "color"])
