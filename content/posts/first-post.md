@@ -2,7 +2,7 @@
 title: My first blog post
 description: Welcome to my first blog post using the content module.
 slug: first-post
-img: 1.jpg
+color: '#e6e7e5'
 ---
 
 

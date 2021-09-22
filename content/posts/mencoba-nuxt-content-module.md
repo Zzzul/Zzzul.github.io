@@ -2,6 +2,7 @@
 title: Mencoba Nuxt Content Module(SSG)
 description: Upgrade web portofolio dengan pakai Nuxt.js agar kekinian.
 slug: mencoba-nuxt-content-module
+color: '#ffffdd'
 ---
 
 # h1
@@ -11,7 +12,7 @@ slug: mencoba-nuxt-content-module
 ##### h5
 ###### h6
 
-# Pertama kali
+# Pertama
 
 Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 

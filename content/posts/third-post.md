@@ -2,7 +2,7 @@
 title: My third blog post
 description: Welcome to my third blog post using the content module.
 slug: third-post
-img: 2.jpg
+color: '#FFF5FD'
 ---
 Compellingly orchestrate unique innovation via high standards in platforms. Competently incubate premium results without diverse action items. Energistically extend stand-alone infomediaries for ethical opportunities. Competently promote compelling innovation and value-added paradigms. Progressively pursue robust process improvements whereas installed base niche markets.
 

@@ -1,0 +1,124 @@
+html,
+body,
+pre,
+code,
+kbd,
+samp {
+    font-family: 'Press Start 2P', cursive;
+    cursor: url('~assets/img/cursor/cursor.png'), auto;
+}
+
+.bordered-without-shadow{
+    border: 5px solid #000000 !important;
+}
+
+.bordered,
+.bordered-hover {
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    -webkit-box-shadow: -7px 6px 0px 1px rgb(0, 0, 0) !important;
+    -moz-box-shadow: -7px 6px 0px 1px rgb(0, 0, 0) !important;
+    box-shadow: -7px 6px 0px 0px rgb(0, 0, 0) !important;
+    border-radius: 0 !important;
+    border: 5px solid #000000;
+}
+
+.bordered-hover:hover,
+.bordered-hover:focus,
+.bordered-hover:active {
+    -webkit-transform: translateY(7px);
+    transform: translateY(7px);
+    -webkit-box-shadow: -4px 3px 0px 1px rgb(0, 0, 0) !important;
+    -moz-box-shadow: -4px 3px 0px 1px rgb(0, 0, 0) !important;
+    box-shadow: -4px 3px 0px 0px rgb(0, 0, 0) !important;
+    border: 5px solid #000000;
+}
+
+.bordered-hover:hover img {
+    opacity: 0.86 !important;
+}
+
+.tags,
+.dropdown-toggle {
+    cursor: url('~assets/img/cursor/cursor-click.png'), auto !important;
+}
+
+#content{
+    display: none;
+}
+
+a{
+    cursor: url('~assets/img/cursor/cursor-click.png'), auto !important;
+    text-decoration: none;
+}
+
+.socmed-icon{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    image-rendering: pixelated;
+    width: 50px;
+}
+
+.socmed-icon:hover{
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+.active-uri{
+    border-bottom: black solid 2px;
+}
+
+img{
+    image-rendering: pixelated;
+}
+
+a.nuxt-link-active {
+  border-bottom: none;
+}
+
+a.nuxt-link-exact-active {
+  border-bottom: 3px solid black;
+}
+
+h1 {
+  font-size: 23px;
+}
+h2 {
+  font-size: 21px;
+}
+h3 {
+  font-size: 19px;
+}
+h4 {
+  font-size: 17px;
+}
+h5 {
+  font-size: 15px;
+}
+h6 {
+  font-size: 13px;
+}
+p,li {
+  font-size: 12px;
+}
+code,
+table {
+  font-size: 10px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 15px;
+}
