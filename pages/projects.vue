@@ -41,7 +41,7 @@
           </div>
         </div>
 
-        <div class="col-md-12 text-center my-5">~~~</div>
+        <Footer />
       </div>
     </div>
 
@@ -66,16 +66,6 @@ export default {
         content: "Projects Open Source yang saya buat",
       },
     ],
-  },
-  data() {
-    return {
-      loading: true,
-    }
-  },
-  mounted() {
-    setInterval(() => {
-      this.loading = false
-    }, 500)
   },
 }
 </script>

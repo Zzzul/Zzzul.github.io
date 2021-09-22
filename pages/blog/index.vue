@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="col-md-12 text-center my-5">~~~</div>
+        <Footer />
       </div>
     </div>
 
@@ -47,6 +47,7 @@
 
 <script>
 export default {
+  components: { Footer },
   async asyncData({ $content, params }) {
     const posts = await $content("posts", params.slug)
       .only(["title", "description", "slug", "color"])
@@ -63,16 +64,6 @@ export default {
         content: "Tulisan yang saya buat, biasanya tentang Web Programming",
       },
     ],
-  },
-  data() {
-    return {
-      loading: true,
-    }
-  },
-  mounted() {
-    setInterval(() => {
-      this.loading = false
-    }, 500)
   },
 }
 </script>

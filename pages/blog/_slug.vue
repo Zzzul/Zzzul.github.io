@@ -16,15 +16,43 @@
           </li>
         </breadcrumb>
 
-        <div class="col-md-12 mb-4">
+        <div class="col-md-12">
           <div class="card bordered">
             <div class="card-body p-4">
-              <nuxt-content :document="post" />
+              <div v-if="loading" class="text-center mt-3 mb-1">
+                <!-- <h6>Loading..</h6> -->
+                <div class="d-none d-md-block">
+                  <!-- Desktop -->
+                  <marquee
+                    behavior="alternate"
+                    onmouseover="this.stop()"
+                    onmouseout="this.start()"
+                    width="20%"
+                    direction="right"
+                    >Loading..
+                  </marquee>
+                </div>
+
+                <!-- Mobile -->
+                <div class="d-sm-block d-md-none">
+                  <marquee
+                    behavior="alternate"
+                    onmouseover="this.stop()"
+                    onmouseout="this.start()"
+                    direction="right"
+                    width="190px"
+                    >Loading..
+                  </marquee>
+                </div>
+              </div>
+              <div v-else>
+                <nuxt-content :document="post" />
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-12 text-center my-5">~~~</div>
+        <Footer />
       </div>
     </div>
 
@@ -38,6 +66,7 @@ export default {
     return {
       title: "",
       description: "",
+      loading: true,
       slug: "",
       post: [],
     }
@@ -62,9 +91,9 @@ export default {
     this.slug = post.slug
     this.description = post.description
 
-    // setInterval(() => {
-    //   this.loading = false
-    // }, 1000)
+    setInterval(() => {
+      this.loading = false
+    }, 2000)
   },
 }
 </script>
