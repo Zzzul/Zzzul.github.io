@@ -75,7 +75,7 @@
                 <div class="ph-row">
                   <div
                     class="ph-picture ms-5 me-2"
-                    style="width: 50px; height: 50px; margin-left: 4px"
+                    style="width: 50px; height: 50px; margin-left: 8px"
                   ></div>
                   <div
                     class="ph-picture me-2"
@@ -110,7 +110,7 @@
 
         <!-- Card -->
         <div class="col-md-12" id="main-content" v-else>
-          <div class="card bordered-hover">
+          <div class="card bordered">
             <div class="card-body p-5 text-center">
               <h5 class="mb-3">Hai,</h5>
               <h3 class="mb-3">Saya Mohammad Zulfahmi</h3>

@@ -13,7 +13,7 @@
 
         <!-- About -->
         <div class="col-md-12 mb-5">
-          <div class="card bordered-hover">
+          <div class="card bordered">
             <div class="card-body p-5 text-center">
               <h5 class="mb-4 text-primary">#Tentang Saya</h5>
               <p>
@@ -48,15 +48,15 @@
 
         <!-- Skills -->
         <div class="col-md-12 mb-4" id="skills">
-          <div class="card bordered-hover">
-            <div class="card-body ps-0 pe-5 py-5">
+          <div class="card bordered">
+            <div class="card-body px-5 pt-5 pb-4">
               <h5 class="text-primary text-center mb-4 font-weigth-bold">
                 #Keahlian
               </h5>
 
               <!-- PHP & Javascript -->
-              <div class="row">
-                <div class="col-md-2 mb-2"></div>
+              <div class="row mb-2">
+                <!-- <div class="col-md-3 mb-2"></div> -->
                 <div class="col-md-4 mb-2">
                   <h6>PHP</h6>
                   <ul>
@@ -97,7 +97,6 @@
                   </ul>
                 </div>
 
-                <div class="col-md-2 mb-2"></div>
                 <div class="col-md-4 mb-2">
                   <h6>Javascript</h6>
                   <ul>
@@ -151,17 +150,13 @@
                     </li>
                   </ul>
                 </div>
-              </div>
 
-              <!-- Code editor & CSS -->
-              <div class="row">
-                <div class="col-md-2 mb-2"></div>
                 <div class="col-md-4 mb-2">
                   <h6>CSS</h6>
                   <ul>
                     <li class="mb-2">
                       <a
-                        href="#"
+                        href="https://getbootstrap.com/"
                         target="blank"
                         data-bs-toggle="tooltip"
                         data-bs-placement="right"
@@ -177,7 +172,7 @@
                     </li>
                     <li class="mb-2">
                       <a
-                        href="#"
+                        href="https://nostalgic-css.github.io/NES.css/"
                         target="blank"
                         data-bs-toggle="tooltip"
                         data-bs-placement="right"
@@ -193,8 +188,10 @@
                     </li>
                   </ul>
                 </div>
+              </div>
 
-                <div class="col-md-2 mb-2"></div>
+              <!-- Code editor & CSS -->
+              <div class="row mb-2">
                 <div class="col-md-4 mb-2">
                   <h6>Code Editor</h6>
                   <ul>
@@ -233,94 +230,101 @@
                     </li>
                   </ul>
                 </div>
-              </div>
 
-              <!-- Others -->
-              <div class="row justify-content-center">
-                <div class="col-md-4"></div>
-                <div class="col-md-6 mb-2">
-                  <h6>Lainnya</h6>
+                <div class="col-md-4">
+                  <h6>Database</h6>
+                  <ul>
+                    <li class="mb-2">
+                      <a
+                        href="https://www.mysql.com/"
+                        target="blank"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="± 1 tahun"
+                      >
+                        <img
+                          src="~/assets/img/skills/mysql.png"
+                          alt="My SQL Logo"
+                          width="30px"
+                        />
+                        My SQL
+                      </a>
+                    </li>
+                  </ul>
+                </div>
 
-                  <li class="mb-2">
-                    <a
-                      href="https://laragon.org/"
-                      target="blank"
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="right"
-                      title="Beberapa bulan"
-                    >
-                      <img
-                        src="~/assets/img/skills/laragon.png"
-                        alt="Laragon Logo"
-                        width="30px"
-                      />
-                      Laragon
-                    </a>
-                  </li>
-                  <li class="mb-2">
-                    <a
-                      href="https://www.mysql.com/"
-                      target="blank"
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="right"
-                      title="± 1 tahun"
-                    >
-                      <img
-                        src="~/assets/img/skills/mysql.png"
-                        alt="My SQL Logo"
-                        width="30px"
-                      />
-                      My SQL
-                    </a>
-                  </li>
-                  <li class="mb-2">
-                    <a
-                      href="https://git-scm.com/"
-                      target="blank"
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="right"
-                      title="± 1 tahun"
-                    >
-                      <img
-                        src="~/assets/img/skills/git2.webp"
-                        alt="Git Logo"
-                        width="30px"
-                      />
-                      Git
-                    </a>
-                  </li>
-                  <li class="mb-2">
-                    <a
-                      href="https://github.com/"
-                      target="blank"
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="right"
-                      title="± 1 tahun"
-                    >
-                      <img
-                        src="~/assets/img/skills/github.png"
-                        alt="Github Logo"
-                        width="30px"
-                      />
-                      Github
-                    </a>
-                  </li>
-                  <li class="mb-2">
-                    <a
-                      href="https://www.npmjs.com/"
-                      target="blank"
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="right"
-                      title="Beberapa bulan"
-                    >
-                      <img
-                        src="~/assets/img/skills/npm.png"
-                        alt="NPM Logo"
-                        width="30px"
-                      />
-                      NPM
-                    </a>
-                  </li>
+                <div class="col-md-4 mb-2">
+                  <h6>Tools</h6>
+
+                  <ul>
+                    <li class="mb-2">
+                      <a
+                        href="https://laragon.org/"
+                        target="blank"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="Beberapa bulan"
+                      >
+                        <img
+                          src="~/assets/img/skills/laragon.png"
+                          alt="Laragon Logo"
+                          width="30px"
+                        />
+                        Laragon
+                      </a>
+                    </li>
+
+                    <li class="mb-2">
+                      <a
+                        href="https://git-scm.com/"
+                        target="blank"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="± 1 tahun"
+                      >
+                        <img
+                          src="~/assets/img/skills/git2.webp"
+                          alt="Git Logo"
+                          width="30px"
+                        />
+                        Git
+                      </a>
+                    </li>
+
+                    <li class="mb-2">
+                      <a
+                        href="https://www.npmjs.com/"
+                        target="blank"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="Beberapa bulan"
+                      >
+                        <img
+                          src="~/assets/img/skills/npm.png"
+                          alt="NPM Logo"
+                          width="30px"
+                        />
+                        NPM
+                      </a>
+                    </li>
+
+                    <li class="mb-2">
+                      <a
+                        href="https://github.com/"
+                        target="blank"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="right"
+                        title="± 1 tahun"
+                      >
+                        <img
+                          src="~/assets/img/skills/github.png"
+                          alt="Github Logo"
+                          width="30px"
+                        />
+                        Github
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

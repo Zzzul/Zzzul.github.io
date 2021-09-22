@@ -30,8 +30,8 @@ samp {
 .bordered-hover:hover,
 .bordered-hover:focus,
 .bordered-hover:active {
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
+    -webkit-transform: translateY(7px);
+    transform: translateY(7px);
     -webkit-box-shadow: -4px 3px 0px 1px rgb(0, 0, 0) !important;
     -moz-box-shadow: -4px 3px 0px 1px rgb(0, 0, 0) !important;
     box-shadow: -4px 3px 0px 0px rgb(0, 0, 0) !important;
