@@ -1,6 +1,9 @@
 <template>
   <div class="col-md-12">
-    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+    <nav
+      style="--bs-breadcrumb-divider: '>'; background-color: #f2f7f5"
+      aria-label="breadcrumb"
+    >
       <ol class="breadcrumb bordered p-3 mb-5" style="font-size: 12px">
         <slot />
       </ol>

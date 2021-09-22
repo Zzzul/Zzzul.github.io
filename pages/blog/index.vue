@@ -8,35 +8,31 @@
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
           </li>
-          <li class="breadcrumb-item active" aria-current="page">Projects</li>
+          <li class="breadcrumb-item active" aria-current="page">Blog</li>
         </breadcrumb>
 
         <!-- Card -->
         <div
           class="col-sm-12 col-md-6 col-lg-4 mb-4"
-          v-for="project of projects"
-          :key="project.slug"
+          v-for="post of posts"
+          :key="post.slug"
         >
           <div
             class="card bordered-hover p-0"
-            :style="{ 'background-color': project.color }"
+            :style="{ 'background-color': post.color }"
           >
             <div class="card-body p-3">
-              <p class="mb-1 mt-1" style="font-size: 13px">
-                {{ project.title }}
+              <nuxt-link
+                class="mb-1 mt-1"
+                style="font-size: 13px"
+                :to="'/blog/' + post.slug"
+              >
+                {{ post.title }}
                 <br />
-                <span style="font-size: 9px">{{ project.description }}</span>
-              </p>
-              <a
-                :href="project.demo"
-                target="blank"
-                style="font-size: 11px"
-                v-if="project.demo"
-                >Demo</a
-              >
-              <a :href="project.source" target="blank" style="font-size: 11px"
-                >Source</a
-              >
+                <span style="font-size: 9px" class="text-dark">{{
+                  post.description
+                }}</span>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -52,18 +48,19 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const projects = await $content("projects", params.slug)
+    const posts = await $content("posts", params.slug)
+      .only(["title", "description", "slug", "color"])
       .sortBy("createdAt", "desc")
       .fetch()
-    return { projects }
+    return { posts }
   },
   head: {
-    title: "Projects",
+    title: "Blog",
     meta: [
       {
         hid: "description",
         name: "description",
-        content: "Projects Open Source yang saya buat",
+        content: "Tulisan yang saya buat, biasanya tentang Web Programming",
       },
     ],
   },

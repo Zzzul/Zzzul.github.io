@@ -87,3 +87,38 @@ a.nuxt-link-active {
 a.nuxt-link-exact-active {
   border-bottom: 3px solid black;
 }
+
+h1 {
+  font-size: 23px;
+}
+h2 {
+  font-size: 21px;
+}
+h3 {
+  font-size: 19px;
+}
+h4 {
+  font-size: 17px;
+}
+h5 {
+  font-size: 15px;
+}
+h6 {
+  font-size: 13px;
+}
+p,li {
+  font-size: 12px;
+}
+code,
+table {
+  font-size: 10px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 15px;
+}

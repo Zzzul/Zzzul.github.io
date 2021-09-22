@@ -3,7 +3,7 @@
     <desktop-navigation />
 
     <div class="container">
-      <div class="row mt-5">
+      <div class="row mt-4 mb-5">
         <breadcrumb>
           <li class="breadcrumb-item active text-secondary" aria-current="page">
             Home
@@ -201,7 +201,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "my Website portofolio",
+        content: "Personal website saya",
       },
     ],
   },

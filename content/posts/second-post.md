@@ -2,7 +2,7 @@
 title: My second blog post
 description: Welcome to my second blog post using the content module.
 slug: second-post
-img: 2.jpg
+color: '#ffb6b9'
 ---
 
 # Mastering VueJS
