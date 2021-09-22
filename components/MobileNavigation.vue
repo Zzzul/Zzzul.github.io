@@ -11,7 +11,7 @@
           <nuxt-link
             class="mb-0 py-2 nav-link text-dark text-center"
             to="/"
-            style="font-size: 12px"
+            style="font-size: 11px"
           >
             <span class="px-1">H</span>
             <br />
@@ -23,7 +23,7 @@
           <nuxt-link
             class="mb-0 py-2 nav-link text-dark text-center"
             to="/about"
-            style="font-size: 12px"
+            style="font-size: 11px"
           >
             <span class="px-1">A</span>
             <br />
@@ -35,7 +35,7 @@
           <nuxt-link
             class="mb-0 py-2 nav-link text-dark text-center"
             to="/projects"
-            style="font-size: 12px"
+            style="font-size: 11px"
           >
             <span class="px-1">P</span>
             <br />
@@ -47,7 +47,7 @@
           <nuxt-link
             class="mb-0 py-2 nav-link text-dark text-center"
             to="/blog"
-            style="font-size: 12px"
+            style="font-size: 11px"
           >
             <span class="px-1">B</span>
             <br />

@@ -28,10 +28,10 @@
                 <span style="font-size: 9px">{{ project.description }}</span>
               </p>
               <a
+                v-if="project.demo"
                 :href="project.demo"
                 target="blank"
                 style="font-size: 11px"
-                v-if="project.demo"
                 >Demo</a
               >
               <a :href="project.source" target="blank" style="font-size: 11px"
