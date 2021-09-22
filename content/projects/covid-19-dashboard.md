@@ -5,4 +5,5 @@ demo: ''
 source: https://github.com/Zzzul/covid19-vue-dashboard
 slug: covid-19-dashboard
 color: '#FFF5FD'
+tags: ['Javascript', 'Vue']
 ---

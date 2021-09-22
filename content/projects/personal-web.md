@@ -5,4 +5,5 @@ demo: '/'
 source: https://github.com/Zzzul/Zzzul.github.io
 slug: personal-website
 color: '#A4EBF3'
+tags: ['Javascript', 'Vue','Nuxt']
 ---
