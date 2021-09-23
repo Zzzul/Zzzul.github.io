@@ -3,11 +3,11 @@
     <div class="card-body p-5 text-center">
       <h5 class="mb-4 text-primary">#Tentang Saya</h5>
       <p>
-        Hai, saya Mohammad Zulfahmi. Saya adalah seorang mahasiswa semester
+        Hai, perkenalkan saya Mohammad Zulfahmi, seorang mahasiswa semester
         akhir jurusan Teknik Informatika di
-        <a href="https://binainsani.ac.id/" target="blank"
-          >Bina Insani University</a
-        >
+        <a href="https://binainsani.ac.id/" target="blank">
+          Bina Insani University
+        </a>
         dan saat ini saya sedang megikuti
         <a href="https://pmmb.fhcibumn.com/" target="blank"
           >Program Magang Mahasiswa Bersertifikat(PMMB)</a
@@ -36,7 +36,7 @@
       </p>
 
       <p>
-        Untuk keahlian dan teknologi yang biasa saya gunakan kamu bisa lihat
+        Untuk kemampuan dan teknologi yang biasa saya gunakan kamu bisa lihat
         dibawah
         <a href="#skills">sini</a>.
       </p>

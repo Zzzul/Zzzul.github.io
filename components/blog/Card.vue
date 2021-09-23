@@ -3,7 +3,7 @@
     class="card bordered-hover p-0"
     :style="{ 'background-color': post.color }"
   >
-    <div class="card-body p-3">
+    <div class="card-body pb-3">
       <nuxt-link
         class="mb-1 mt-1"
         style="font-size: 13px"

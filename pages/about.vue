@@ -17,7 +17,7 @@
         </div>
 
         <!-- Skills -->
-        <div class="col-md-12 mb-4" id="skills">
+        <div class="col-md-12 mb-3" id="skills">
           <AboutSkill />
         </div>
 

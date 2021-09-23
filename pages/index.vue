@@ -14,10 +14,10 @@
         <div class="col-md-12" id="main-content">
           <div class="card bordered">
             <div class="card-body p-5 text-center">
-              <h5 class="mb-3">Hai,</h5>
-              <h3 class="mb-3">Saya Mohammad Zulfahmi</h3>
+              <h4 class="mb-3">Hai!</h4>
+              <h2 class="mb-3">Saya Mohammad Zulfahmi</h2>
 
-              <h4 class="mb-4">Web Developer</h4>
+              <h2 class="mb-4">Web Developer</h2>
 
               <a href="#" class="text-decoration-none" target="blank">
                 <img

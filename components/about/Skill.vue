@@ -1,7 +1,7 @@
 <template>
   <div class="card bordered">
     <div class="card-body px-5 pt-5 pb-4">
-      <h5 class="text-primary text-center mb-4 font-weigth-bold">#Keahlian</h5>
+      <h5 class="text-primary text-center mb-4 font-weigth-bold">#Kemampuan</h5>
 
       <div class="row">
         <div class="col-md-1"></div>
@@ -55,24 +55,6 @@
           <ul>
             <li class="mb-2">
               <a
-                href="https://codeigniter.com/"
-                class="text-decoration-none"
-                target="blank"
-                data-bs-toggle="tooltip"
-                data-bs-placement="right"
-                title="Beberapa bulan"
-              >
-                <img
-                  src="~/assets/img/skills/ci.png"
-                  alt="Codeigniter Logo"
-                  width="30px"
-                />
-                Codeigniter
-              </a>
-            </li>
-
-            <li class="mb-2">
-              <a
                 href="http://laravel.com/"
                 class="text-decoration-none"
                 target="blank"
@@ -86,6 +68,24 @@
                   width="30px"
                 />
                 Laravel
+              </a>
+            </li>
+
+            <li class="mb-2">
+              <a
+                href="https://codeigniter.com/"
+                class="text-decoration-none"
+                target="blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Beberapa bulan"
+              >
+                <img
+                  src="~/assets/img/skills/ci.png"
+                  alt="Codeigniter Logo"
+                  width="30px"
+                />
+                Codeigniter
               </a>
             </li>
 
