@@ -12,6 +12,7 @@
         </breadcrumb>
 
         <!-- Card -->
+
         <div
           class="col-sm-12 col-md-6 col-lg-4 mb-4"
           v-for="post of posts"

@@ -11,23 +11,23 @@
           <nuxt-link
             class="mb-0 py-2 nav-link text-dark text-center"
             to="/"
-            style="font-size: 11px"
+            style="font-size: 13px"
           >
             <span class="px-1">H</span>
             <br />
-            <small class="m-0 p-0 text-link-bottom">Home</small>
+            <small class="m-0 p-0" style="font-size: 9px">Home</small>
           </nuxt-link>
         </div>
 
         <div class="col-3 m-0 p-0">
           <nuxt-link
-            class="mb-0 py-2 nav-link text-dark text-center"
+            :class="isAboutRoute()"
             to="/about"
-            style="font-size: 11px"
+            style="font-size: 13px"
           >
             <span class="px-1">A</span>
             <br />
-            <small class="m-0 p-0 text-link-bottom">About</small>
+            <small class="m-0 p-0" style="font-size: 9px">About</small>
           </nuxt-link>
         </div>
 
@@ -35,26 +35,43 @@
           <nuxt-link
             class="mb-0 py-2 nav-link text-dark text-center"
             to="/projects"
-            style="font-size: 11px"
+            style="font-size: 13px"
           >
             <span class="px-1">P</span>
             <br />
-            <small class="m-0 p-0 text-link-bottom">Projects</small>
+            <small class="m-0 p-0" style="font-size: 9px">Projects</small>
           </nuxt-link>
         </div>
 
         <div class="col-3 m-0 p-0">
-          <nuxt-link
-            class="mb-0 py-2 nav-link text-dark text-center"
-            to="/blog"
-            style="font-size: 11px"
-          >
+          <nuxt-link :class="isBlogRoute()" to="/blog" style="font-size: 13px">
             <span class="px-1">B</span>
             <br />
-            <small class="m-0 p-0 text-link-bottom">Blog</small>
+            <small class="m-0 p-0" style="font-size: 9px">Blog</small>
           </nuxt-link>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    isBlogRoute() {
+      if (this.$route.name == "blog" || this.$route.name == "blog-slug") {
+        return "mb-0 py-2 nav-link text-dark text-center nuxt-link-exact-active "
+      }
+
+      return "mb-0 py-2 nav-link text-dark text-center"
+    },
+    isAboutRoute() {
+      if (this.$route.name == "about") {
+        return "mb-0 py-2 nav-link text-dark text-center nuxt-link-exact-active "
+      }
+
+      return "mb-0 py-2 nav-link text-dark text-center"
+    },
+  },
+}
+</script>

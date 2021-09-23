@@ -26,7 +26,7 @@
             </li>
 
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/about">About</nuxt-link>
+              <nuxt-link :class="isAboutRoute()" to="/about">About</nuxt-link>
             </li>
 
             <li class="nav-item">
@@ -34,7 +34,7 @@
             </li>
 
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>
+              <nuxt-link :class="isBlogRoute()" to="/blog">Blog</nuxt-link>
             </li>
           </ul>
         </div>
@@ -42,4 +42,25 @@
     </nav>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    isBlogRoute() {
+      if (this.$route.name == "blog" || this.$route.name == "blog-slug") {
+        return "nav-link nuxt-link-exact-active "
+      }
+
+      return "nav-link"
+    },
+    isAboutRoute() {
+      if (this.$route.name == "about") {
+        return "nav-link nuxt-link-exact-active "
+      }
+
+      return "nav-link"
+    },
+  },
+}
+</script>
 
