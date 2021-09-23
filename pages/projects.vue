@@ -11,55 +11,13 @@
           <li class="breadcrumb-item active" aria-current="page">Projects</li>
         </breadcrumb>
 
-        <!-- Card -->
+        <!-- Project card -->
         <div
           class="col-sm-12 col-md-6 col-lg-4 mb-4"
           v-for="project of projects"
           :key="project.slug"
         >
-          <div
-            class="card bordered-hover p-0"
-            :style="{ 'background-color': project.color }"
-          >
-            <div class="card-body p-3">
-              <p class="mb-1 mt-1" style="font-size: 13px">
-                {{ project.title }}
-                <br />
-                <span style="font-size: 9px">{{ project.description }}</span>
-              </p>
-
-              <div v-if="project.tags" class="mb-2">
-                <div
-                  v-for="tag of project.tags"
-                  :key="tag"
-                  class="d-inline-flex"
-                >
-                  <!-- <span class="badge bg-dark" style="font-size: 8px">{{
-                    tag
-                  }}</span> -->
-
-                  <small
-                    style="font-size: 8px"
-                    class="me-2 fw-light border border-1 border-dark tags"
-                  >
-                    #{{ tag }}
-                  </small>
-                </div>
-              </div>
-
-              <a
-                v-if="project.demo"
-                :href="project.demo"
-                target="blank"
-                style="font-size: 11px"
-              >
-                Demo
-              </a>
-              <a :href="project.source" target="blank" style="font-size: 11px"
-                >Source</a
-              >
-            </div>
-          </div>
+          <ProjectCard :project="project" />
         </div>
 
         <Footer />
@@ -74,6 +32,7 @@
 export default {
   async asyncData({ $content, params }) {
     const projects = await $content("projects", params.slug)
+      .only(["title", "description", "color", "source", "demo", "tags"])
       .sortBy("createdAt", "desc")
       .fetch()
     return { projects }

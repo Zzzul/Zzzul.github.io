@@ -12,7 +12,8 @@
             <nuxt-link to="/blog" class="text-decoration-none">Blog</nuxt-link>
           </li>
           <li class="breadcrumb-item active" aria-current="page">
-            {{ slug }}
+            <span v-if="loading">...</span>
+            <span v-else>{{ slug }}</span>
           </li>
         </breadcrumb>
 
