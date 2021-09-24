@@ -4,18 +4,11 @@
       <h5 class="mb-4 text-primary">#Tentang Saya</h5>
       <p>
         Hai, perkenalkan saya Mohammad Zulfahmi, seorang mahasiswa semester
-        akhir jurusan Teknik Informatika di
-        <a href="https://binainsani.ac.id/" target="blank">
-          Bina Insani University
+        akhir jurusan Teknik Informatika di salah satu universitas swasta
+        bekasi, dan saat ini saya sedang megikuti
+        <a href="https://pmmb.fhcibumn.com/" target="blank">
+          Program Magang Mahasiswa Bersertifikat(PMMB)
         </a>
-        dan saat ini saya sedang megikuti
-        <a href="https://pmmb.fhcibumn.com/" target="blank"
-          >Program Magang Mahasiswa Bersertifikat(PMMB)</a
-        >
-        pada
-        <a href="https://www.pertamina.com/" target="blank"
-          >PT. Pertamina (persero)</a
-        >
         selama 6 bulan kedepan.
       </p>
 
@@ -25,7 +18,13 @@
         <a href="https://www.php.net/" target="blank">PHP</a>
         dan
         <a href="https://laravel.com/" target="blank">Laravel</a>
-        sebagai frameworknya.
+        sebagai frameworknya, dengan tambahan
+        <a href="https://developer.mozilla.org/id/docs/Web/CSS" target="blank">
+          CSS
+        </a>
+        dan
+        <a href="https://www.javascript.com/" target="blank">Javascript</a> jika
+        diperlukan.
       </p>
 
       <p>

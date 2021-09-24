@@ -12,11 +12,7 @@
         </breadcrumb>
 
         <!-- Post card -->
-        <div
-          class="col-sm-12 col-md-6 col-lg-4 mb-4"
-          v-for="post of posts"
-          :key="post.slug"
-        >
+        <div class="col-md-12 mb-4" v-for="post of posts" :key="post.slug">
           <BlogCard :post="post" />
         </div>
 
@@ -33,7 +29,7 @@ export default {
   async asyncData({ $content, params }) {
     const posts = await $content("posts", params.slug)
       .only(["title", "description", "slug", "color"])
-      .sortBy("updatedAt", "desc")
+      .sortBy("createdAt", "desc")
       .fetch()
     return { posts }
   },
