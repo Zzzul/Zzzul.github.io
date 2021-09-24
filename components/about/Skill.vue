@@ -20,7 +20,7 @@
                 title="± 1 tahun"
               >
                 <img
-                  src="~/assets/img/skills/php.png"
+                  src="~/assets/img/skills/php.webp"
                   alt="PHP Logo"
                   width="30px"
                 />
@@ -38,7 +38,7 @@
                 title="± 1 tahun"
               >
                 <img
-                  src="~/assets/img/skills/js.png"
+                  src="~/assets/img/skills/js.webp"
                   alt="Javascript Logo"
                   width="28px"
                 />
@@ -63,7 +63,7 @@
                 title="± 1 tahun"
               >
                 <img
-                  src="~/assets/img/skills/laravel.png"
+                  src="~/assets/img/skills/laravel.webp"
                   alt="Laravel Logo"
                   width="30px"
                 />
@@ -81,7 +81,7 @@
                 title="Beberapa bulan"
               >
                 <img
-                  src="~/assets/img/skills/ci.png"
+                  src="~/assets/img/skills/ci.webp"
                   alt="Codeigniter Logo"
                   width="30px"
                 />
@@ -98,7 +98,7 @@
                 title="± 2 tahun"
               >
                 <img
-                  src="~/assets/img/skills/bootstrap.png"
+                  src="~/assets/img/skills/bootstrap.webp"
                   alt="Bootstrap Logo"
                   width="30px"
                 />
@@ -124,7 +124,7 @@
                 title="± 1 tahun"
               >
                 <img
-                  src="~/assets/img/skills/mysql.png"
+                  src="~/assets/img/skills/mysql.webp"
                   alt="My SQL Logo"
                   width="30px"
                 />
@@ -148,7 +148,7 @@
                 title="± 1 tahun"
               >
                 <img
-                  src="~/assets/img/skills/vscode.png"
+                  src="~/assets/img/skills/vscode.webp"
                   alt="VS Code Logo"
                   width="30px"
                 />
@@ -182,7 +182,7 @@
                 title="Beberapa bulan"
               >
                 <img
-                  src="~/assets/img/skills/npm.png"
+                  src="~/assets/img/skills/npm.webp"
                   alt="NPM Logo"
                   width="30px"
                 />
@@ -199,7 +199,7 @@
                 title="± 1 tahun"
               >
                 <img
-                  src="~/assets/img/skills/github.png"
+                  src="~/assets/img/skills/github.webp"
                   alt="Github Logo"
                   width="30px"
                 />

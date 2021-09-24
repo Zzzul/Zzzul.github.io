@@ -21,7 +21,7 @@
 
               <a href="#" class="text-decoration-none" target="blank">
                 <img
-                  src="~/assets/img/social-media/fb.jpg"
+                  src="~/assets/img/social-media/fb.webp"
                   class="mb-2 socmed-icon"
                   alt="facebook logo"
                 />
@@ -33,7 +33,7 @@
                 target="blank"
               >
                 <img
-                  src="~/assets/img/social-media/ig.jpg"
+                  src="~/assets/img/social-media/ig.webp"
                   class="mb-2 socmed-icon"
                   alt="Instagram logo"
                 />
@@ -45,15 +45,19 @@
                 target="blank"
               >
                 <img
-                  src="~/assets/img/social-media/github.jpg"
+                  src="~/assets/img/social-media/github.webp"
                   class="mb-2 socmed-icon"
                   alt="github logo"
                 />
               </a>
 
-              <a href="#" class="text-decoration-none" target="blank">
+              <a
+                href="https://zzzul.medium.com/"
+                class="text-decoration-none"
+                target="blank"
+              >
                 <img
-                  src="~/assets/img/social-media/medium.jpg"
+                  src="~/assets/img/social-media/medium.webp"
                   class="mb-2 socmed-icon"
                   alt="medium logo"
                 />
@@ -65,7 +69,7 @@
                 target="blank"
               >
                 <img
-                  src="~/assets/img/social-media/linkedin.jpg"
+                  src="~/assets/img/social-media/linkedin.webp"
                   class="mb-2 socmed-icon"
                   alt="linkedin logo"
                 />
@@ -77,7 +81,7 @@
                 target="blank"
               >
                 <img
-                  src="~/assets/img/social-media/gmail.jpg"
+                  src="~/assets/img/social-media/gmail.webp"
                   class="mb-2 socmed-icon"
                   alt="gmail logo"
                   width="60px"
