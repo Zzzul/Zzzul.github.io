@@ -8,17 +8,12 @@
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
           </li>
-          <li class="breadcrumb-item active" aria-current="page">About</li>
+          <li class="breadcrumb-item active" aria-current="page">Blog</li>
         </breadcrumb>
 
-        <!-- About -->
-        <div class="col-md-12 mb-5">
-          <AboutDescription />
-        </div>
-
-        <!-- Skills -->
-        <div class="col-md-12 mb-3" id="skills">
-          <AboutSkill />
+        <!-- Post card -->
+        <div class="col-md-12 mb-4" v-for="post of posts" :key="post.slug">
+          <BlogCard :post="post" />
         </div>
 
         <Footer />
@@ -31,16 +26,22 @@
 
 <script>
 export default {
+  async asyncData({ $content, params }) {
+    const posts = await $content("posts", params.slug)
+      .only(["title", "description", "slug", "color"])
+      .sortBy("createdAt", "desc")
+      .fetch()
+    return { posts }
+  },
   head: {
     title: "Blog",
     meta: [
       {
         hid: "description",
         name: "description",
-        content: "Mari mengenal saya lebih dekat",
+        content: "Tulisan yang saya buat, biasanya tentang Web Programming",
       },
     ],
   },
 }
 </script>
-

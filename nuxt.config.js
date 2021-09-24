@@ -2,10 +2,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   loading: {
-    color: 'white',
+    color: 'black',
     height: '5px',
-    continuous: true,
-    duration: 3000
+    // continuous: true,
+    // duration: 3000
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -21,15 +21,26 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css' },
-      { rel: 'stylesheet', href: 'https://unpkg.com/nes.css@2.3.0/css/nes.min.css' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap' }
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css',
+        integrity: 'sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC',
+        crossorigin: 'anonymous'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'
+      }
     ],
     script: [
       {
-        src: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js",
+        src: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js",
         body: true,
-        integrity: "sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf",
+        integrity: "sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM",
         crossorigin: "anonymous"
       },
     ],
@@ -37,6 +48,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/main.css',
+    // '~/assets/css/skeleton-loading.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
