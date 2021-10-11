@@ -11,9 +11,25 @@
           <li class="breadcrumb-item active" aria-current="page">Blog</li>
         </breadcrumb>
 
+        <div class="col-md-12 mt-0 mb-4">
+          <div class="form-group">
+            <input
+              type="text"
+              v-model="search"
+              class="form-control"
+              placeholder="Search..."
+              @keyup="getPostsData"
+            />
+          </div>
+        </div>
+
         <!-- Post card -->
         <div class="col-md-12 mb-4" v-for="post of posts" :key="post.slug">
           <BlogCard :post="post" />
+        </div>
+
+        <div class="text-center" v-if="postNotFound">
+          <p>Post Not Found.</p>
         </div>
 
         <Footer />
@@ -26,13 +42,6 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const posts = await $content("posts", params.slug)
-      .only(["title", "description", "slug", "color"])
-      .sortBy("createdAt", "desc")
-      .fetch()
-    return { posts }
-  },
   head: {
     title: "Blog",
     meta: [
@@ -42,6 +51,28 @@ export default {
         content: "Tulisan yang saya buat, biasanya tentang Web Programming",
       },
     ],
+  },
+  data() {
+    return {
+      posts: [],
+      search: "",
+      postNotFound: false,
+    }
+  },
+  methods: {
+    async getPostsData() {
+      const articles = await this.$content("posts")
+        .only(["title", "description", "slug", "color"])
+        .sortBy("createdAt", "desc")
+        .search(this.search)
+        .fetch()
+        .catch((err) => (this.postNotFound = true))
+
+      this.posts = articles
+    },
+  },
+  created() {
+    this.getPostsData()
   },
 }
 </script>

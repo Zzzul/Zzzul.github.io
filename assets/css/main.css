@@ -20,9 +20,9 @@ samp {
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-    -webkit-box-shadow: -7px 6px 0px 1px rgb(0, 0, 0) !important;
-    -moz-box-shadow: -7px 6px 0px 1px rgb(0, 0, 0) !important;
-    box-shadow: -7px 6px 0px 0px rgb(0, 0, 0) !important;
+    -webkit-box-shadow: -6px 6px 0px 1px rgb(0, 0, 0) !important;
+    -moz-box-shadow: -6px 6px 0px 1px rgb(0, 0, 0) !important;
+    box-shadow: -6px 6px 0px 0px rgb(0, 0, 0) !important;
     border-radius: 0 !important;
     border: 5px solid #000000;
 }
@@ -118,7 +118,7 @@ p,li {
 
 code,
 table {
-  font-size: 10px !important;
+  font-size: 11px !important;
 }
 
 h1,
@@ -129,4 +129,21 @@ h5,
 h6,
 p {
   margin-bottom: 15px;
+}
+
+input{
+  border-radius: 0 !important;
+  border: 3px solid #000000 !important;
+  padding-bottom: 10px !important;
+}
+
+input:active,
+input:focus{
+  -webkit-box-shadow: -4px 3px 0px 1px rgb(0, 0, 0) !important;
+  -moz-box-shadow: -4px 3px 0px 1px rgb(0, 0, 0) !important;
+  box-shadow: -4px 3px 0px 0px rgb(0, 0, 0) !important;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 12px !important;
 }
