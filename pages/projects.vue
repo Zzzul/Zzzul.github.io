@@ -3,7 +3,7 @@
     <desktop-navigation />
 
     <div class="container">
-      <div class="row mt-4 mb-5">
+      <div class="row mt-4 mb-4">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>

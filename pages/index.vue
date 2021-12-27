@@ -3,7 +3,7 @@
     <desktop-navigation />
 
     <div class="container">
-      <div class="row mt-4 mb-5">
+      <div class="row mt-4 mb-4">
         <breadcrumb>
           <li class="breadcrumb-item active text-secondary" aria-current="page">
             Home
@@ -84,7 +84,8 @@
                   src="~/assets/img/social-media/gmail.webp"
                   class="mb-2 socmed-icon"
                   alt="gmail logo"
-                  width="60px"
+                  height="47px"
+                  style="object-fit: cover"
                 />
               </a>
             </div>

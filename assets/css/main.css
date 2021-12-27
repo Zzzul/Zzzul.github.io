@@ -6,6 +6,7 @@ kbd,
 samp {
     font-family: 'Press Start 2P', cursive;
     cursor: url('~assets/img/cursor/cursor.png'), auto;
+    background-color: #f7f7f7;
 }
 
 .bordered-without-shadow{
@@ -146,4 +147,8 @@ input:focus{
 
 input::-webkit-input-placeholder {
   font-size: 12px !important;
+}
+
+#desktop-nav{
+  background-color: #2E4C6D;
 }

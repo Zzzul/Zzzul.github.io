@@ -3,7 +3,7 @@
     <desktop-navigation />
 
     <div class="container">
-      <div class="row mt-4 mb-5">
+      <div class="row mt-4 mb-4">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
@@ -19,16 +19,17 @@
               class="form-control"
               placeholder="Search..."
               @keyup="getPostsData"
+              @keydown="getPostsData"
             />
           </div>
         </div>
 
         <!-- Post card -->
-        <div class="col-md-12 mb-4" v-for="post of posts" :key="post.slug">
+        <div class="col-md-12 mt-4" v-for="post of posts" :key="post.slug">
           <BlogCard :post="post" />
         </div>
 
-        <div class="text-center" v-if="postNotFound">
+        <div class="text-center mt-4" v-if="postNotFound">
           <p>Post Not Found.</p>
         </div>
 
@@ -67,6 +68,10 @@ export default {
         .search(this.search)
         .fetch()
         .catch((err) => (this.postNotFound = true))
+
+      if (articles.length < 1) {
+        this.postNotFound = true
+      }
 
       this.posts = articles
     },

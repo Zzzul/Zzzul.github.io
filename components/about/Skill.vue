@@ -55,7 +55,7 @@
           <ul>
             <li class="mb-2">
               <a
-                href="http://laravel.com/"
+                href="https://laravel.com/"
                 class="text-decoration-none"
                 target="blank"
                 data-bs-toggle="tooltip"
@@ -71,7 +71,7 @@
               </a>
             </li>
 
-            <li class="mb-2">
+            <!-- <li class="mb-2">
               <a
                 href="https://codeigniter.com/"
                 class="text-decoration-none"
@@ -87,7 +87,7 @@
                 />
                 Codeigniter
               </a>
-            </li>
+            </li> -->
 
             <li class="mb-2">
               <a
@@ -173,7 +173,7 @@
               </a>
             </li>
 
-            <li class="mb-2">
+            <!-- <li class="mb-2">
               <a
                 href="https://www.npmjs.com/"
                 target="blank"
@@ -188,7 +188,7 @@
                 />
                 NPM
               </a>
-            </li>
+            </li> -->
 
             <li class="mb-2">
               <a
