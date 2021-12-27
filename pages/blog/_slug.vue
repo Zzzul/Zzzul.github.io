@@ -88,7 +88,7 @@ export default {
 
     setTimeout(() => {
       this.loading = false
-    }, 100)
+    }, 2000)
   },
 }
 </script>

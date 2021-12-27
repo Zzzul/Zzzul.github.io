@@ -108,7 +108,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Personal website saya",
+        content: "Hai!, sekarang saya punya webiste portofolio loh..",
       },
     ],
   },

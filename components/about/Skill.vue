@@ -17,7 +17,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±2 tahun"
               >
                 <img
                   src="~/assets/img/skills/php.webp"
@@ -35,7 +35,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/js.webp"
@@ -60,7 +60,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/laravel.webp"
@@ -95,7 +95,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 2 tahun"
+                title="±2 tahun"
               >
                 <img
                   src="~/assets/img/skills/bootstrap.webp"
@@ -121,7 +121,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/mysql.webp"
@@ -145,7 +145,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/vscode.webp"
@@ -162,7 +162,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/git.webp"
@@ -196,7 +196,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/github.webp"

@@ -34,7 +34,7 @@
 <script>
 export default {
   head: {
-    title: "Blog",
+    title: "About",
     meta: [
       {
         hid: "description",

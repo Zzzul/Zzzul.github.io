@@ -49,7 +49,8 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Tulisan yang saya buat, biasanya tentang Web Programming",
+        content:
+          "Tulisan yang saya buat dan berharap bisa bermanfaat untuk kamu. biasanya tentang Web Programming/IT",
       },
     ],
   },
