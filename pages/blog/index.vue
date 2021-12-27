@@ -72,6 +72,8 @@ export default {
 
       if (articles.length < 1) {
         this.postNotFound = true
+      } else {
+        this.postNotFound = false
       }
 
       this.posts = articles
