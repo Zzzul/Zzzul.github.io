@@ -17,7 +17,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±2 tahun"
               >
                 <img
                   src="~/assets/img/skills/php.webp"
@@ -35,7 +35,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/js.webp"
@@ -55,12 +55,12 @@
           <ul>
             <li class="mb-2">
               <a
-                href="http://laravel.com/"
+                href="https://laravel.com/"
                 class="text-decoration-none"
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/laravel.webp"
@@ -71,7 +71,7 @@
               </a>
             </li>
 
-            <li class="mb-2">
+            <!-- <li class="mb-2">
               <a
                 href="https://codeigniter.com/"
                 class="text-decoration-none"
@@ -87,7 +87,7 @@
                 />
                 Codeigniter
               </a>
-            </li>
+            </li> -->
 
             <li class="mb-2">
               <a
@@ -95,7 +95,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 2 tahun"
+                title="±2 tahun"
               >
                 <img
                   src="~/assets/img/skills/bootstrap.webp"
@@ -121,7 +121,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/mysql.webp"
@@ -145,7 +145,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/vscode.webp"
@@ -162,7 +162,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/git.webp"
@@ -173,7 +173,7 @@
               </a>
             </li>
 
-            <li class="mb-2">
+            <!-- <li class="mb-2">
               <a
                 href="https://www.npmjs.com/"
                 target="blank"
@@ -188,7 +188,7 @@
                 />
                 NPM
               </a>
-            </li>
+            </li> -->
 
             <li class="mb-2">
               <a
@@ -196,7 +196,7 @@
                 target="blank"
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title="± 1 tahun"
+                title="±1 tahun"
               >
                 <img
                   src="~/assets/img/skills/github.webp"

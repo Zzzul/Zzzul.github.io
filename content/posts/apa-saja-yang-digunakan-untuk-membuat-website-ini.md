@@ -2,7 +2,7 @@
 title: Apa saja yang digunakan untuk membuat website ini ?
 description: Stack yang saya gunakan
 slug: apa-saja-yang-digunakan-untuk-membuat-website-ini
-color: '#FDFCE5'
+color: '#F7F2E7'
 ---
 
 #### Programming language

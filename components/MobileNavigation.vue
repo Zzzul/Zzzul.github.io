@@ -1,10 +1,14 @@
 <template>
   <div id="mobile-navigation">
-    <br />
+    <div class="d-sm-block d-md-none">
+      <br />
+      <br />
+      <br />
+    </div>
 
     <div
       class="d-sm-block d-md-none mt-5 bg-primary bordered fixed-bottom"
-      style="margin-top: 100px"
+      style="margin-top: 130px"
     >
       <div class="row px-3 pb-0 pt-2">
         <div class="col-3 m-0 p-0">

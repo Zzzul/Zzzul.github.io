@@ -3,7 +3,7 @@
     <desktop-navigation />
 
     <div class="container">
-      <div class="row mt-4 mb-5">
+      <div class="row mt-4 mb-4">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
@@ -12,12 +12,14 @@
         </breadcrumb>
 
         <!-- About -->
-        <div class="col-md-12 mb-5">
+        <div class="col-md-12">
           <AboutDescription />
         </div>
 
+        <div class="mb-5" id="skills"></div>
+
         <!-- Skills -->
-        <div class="col-md-12 mb-3" id="skills">
+        <div class="col-md-12 mb-3">
           <AboutSkill />
         </div>
 
@@ -32,7 +34,7 @@
 <script>
 export default {
   head: {
-    title: "Blog",
+    title: "About",
     meta: [
       {
         hid: "description",

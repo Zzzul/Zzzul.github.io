@@ -11,9 +11,9 @@
       >
         {{ post.title }}
         <br />
-        <span style="font-size: 9px" class="text-dark">{{
-          post.description
-        }}</span>
+        <span style="font-size: 9px" class="text-dark">
+          {{ post.description }}
+        </span>
       </nuxt-link>
     </div>
   </div>

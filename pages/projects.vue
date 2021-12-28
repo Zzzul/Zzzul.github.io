@@ -3,7 +3,7 @@
     <desktop-navigation />
 
     <div class="container">
-      <div class="row mt-4 mb-5">
+      <div class="row mt-4 mb-4">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
@@ -43,7 +43,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Projects Open Source yang saya buat",
+        content: "Projects open source & komersil yang sudah/sedang saya buat",
       },
     ],
   },
