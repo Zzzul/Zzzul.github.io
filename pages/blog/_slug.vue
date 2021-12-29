@@ -53,6 +53,17 @@
           </div>
         </div>
 
+        <div class="col-md-12 mb-3 mt-5" v-if="!loading">
+          <div class="card bordered-hover">
+            <div class="card-body p-4">
+              <h5 class="text-center">
+                Hai, kamu telah mencapai penghujung halaman, terima kasih telah
+                membacanya hingga akhir. Semoga harimu menyenangkan.
+              </h5>
+            </div>
+          </div>
+        </div>
+
         <Footer />
       </div>
     </div>

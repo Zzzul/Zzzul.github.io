@@ -11,7 +11,7 @@ samp {
 }
 
 .bordered-without-shadow{
-    border: 3px solid #000000 !important;
+    border: 3px solid #191919 !important;
 }
 
 .bordered,
@@ -26,7 +26,7 @@ samp {
     -moz-box-shadow: -5px 5px 0px 1px rgb(0, 0, 0) !important;
     box-shadow: -5px 5px 0px 0px rgb(0, 0, 0) !important;
     border-radius: 0 !important;
-    border: 3px solid #000000;
+    border: 3px solid #191919;
 }
 
 .bordered-hover:hover,
@@ -37,7 +37,7 @@ samp {
     -webkit-box-shadow: -3px 2px 0px 1px rgb(0, 0, 0) !important;
     -moz-box-shadow: -3px 2px 0px 1px rgb(0, 0, 0) !important;
     box-shadow: -3px 2px 0px 0px rgb(0, 0, 0) !important;
-    border: 3px solid #000000;
+    border: 3px solid #191919;
 }
 
 .bordered-hover:hover img {
@@ -135,7 +135,7 @@ p {
 
 input{
   border-radius: 0 !important;
-  border: 2px solid #000000 !important;
+  border: 2px solid #191919 !important;
   padding-bottom: 10px !important;
 }
 
