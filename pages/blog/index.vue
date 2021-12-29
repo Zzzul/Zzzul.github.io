@@ -24,8 +24,52 @@
           </div>
         </div>
 
+        <!-- Desktop -->
+        <div v-if="loading" class="d-none d-md-block mt-4">
+          <div class="row mb-4">
+            <div class="col-md-12">
+              <div class="card bordered p-0">
+                <div class="card-body p-4 text-center">
+                  <marquee
+                    behavior="alternate"
+                    onmouseover="this.stop()"
+                    onmouseout="this.start()"
+                    direction="right"
+                    width="20%"
+                    >Loading..
+                  </marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile -->
+        <div v-if="loading" class="d-sm-block d-md-none mt-4">
+          <div class="row mb-4">
+            <div class="col-md-12">
+              <div class="card bordered p-0">
+                <div class="card-body p-5 text-center">
+                  <marquee
+                    behavior="alternate"
+                    onmouseover="this.stop()"
+                    onmouseout="this.start()"
+                    direction="right"
+                    >Loading..
+                  </marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Post card -->
-        <div class="col-md-12 mt-4" v-for="post of posts" :key="post.slug">
+        <div
+          class="col-md-12 mt-4"
+          v-else
+          v-for="post of posts"
+          :key="post.slug"
+        >
           <BlogCard :post="post" />
         </div>
 
@@ -59,6 +103,7 @@ export default {
       posts: [],
       search: "",
       postNotFound: false,
+      loading: true,
     }
   },
   methods: {
@@ -76,7 +121,11 @@ export default {
         this.postNotFound = false
       }
 
-      this.posts = articles
+      setTimeout(() => {
+        this.loading = false
+
+        this.posts = articles
+      }, 1500)
     },
   },
   created() {

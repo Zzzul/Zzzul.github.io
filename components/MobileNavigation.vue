@@ -7,7 +7,14 @@
     </div>
 
     <div
-      class="d-sm-block d-md-none mt-5 bg-primary bordered fixed-bottom"
+      class="
+        d-sm-block d-md-none
+        mt-5
+        bg-primary
+        bordered
+        fixed-bottom
+        boder-top
+      "
       style="margin-top: 130px"
     >
       <div class="row px-3 pb-0 pt-2">

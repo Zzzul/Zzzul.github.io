@@ -41,7 +41,8 @@
                     onmouseover="this.stop()"
                     onmouseout="this.start()"
                     direction="right"
-                    width="190px"
+                    width="100%"
+                    class="mb-2"
                     >Loading..
                   </marquee>
                 </div>
@@ -56,10 +57,10 @@
         <div class="col-md-12 mb-3 mt-5" v-if="!loading">
           <div class="card bordered-hover">
             <div class="card-body p-4">
-              <h5 class="text-center">
-                Hai, kamu telah mencapai penghujung halaman, terima kasih telah
+              <h6 class="text-center m-0" style="line-height: 24px">
+                Halo, kamu telah mencapai penghujung halaman, terima kasih telah
                 membacanya hingga akhir. Semoga harimu menyenangkan.
-              </h5>
+              </h6>
             </div>
           </div>
         </div>
