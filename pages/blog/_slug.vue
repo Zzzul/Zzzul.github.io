@@ -3,7 +3,7 @@
     <desktop-navigation />
 
     <div class="container">
-      <div class="row mt-4 mb-4">
+      <div class="row mt-2 mb-4">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
@@ -57,7 +57,7 @@
         <div class="col-md-12 mb-3 mt-5" v-if="!loading">
           <div class="card bordered-hover">
             <div class="card-body p-4">
-              <h6 class="text-center m-0" style="line-height: 24px">
+              <h6 class="text-center m-0" style="line-height: 21px">
                 Halo, kamu telah mencapai penghujung halaman, terima kasih telah
                 membacanya hingga akhir. Semoga harimu menyenangkan.
               </h6>
@@ -100,7 +100,7 @@ export default {
 
     setTimeout(() => {
       this.loading = false
-    }, 2000)
+    }, 1500)
   },
 }
 </script>

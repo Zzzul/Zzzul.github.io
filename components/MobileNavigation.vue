@@ -15,9 +15,9 @@
         fixed-bottom
         boder-top
       "
-      style="margin-top: 130px"
+      style="margin-top: 120px"
     >
-      <div class="row px-3 pb-0 pt-2">
+      <div class="row px-3 py-2">
         <div class="col-3 m-0 p-0">
           <nuxt-link
             class="mb-0 py-2 nav-link text-dark text-center"
