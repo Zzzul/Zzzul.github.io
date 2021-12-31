@@ -1,6 +1,6 @@
 <template>
   <div id="mobile-navigation">
-    <div class="d-sm-block d-md-none">
+    <div class="d-sm-block d-md-none m-0">
       <br />
       <br />
       <br />
@@ -8,15 +8,7 @@
     </div>
 
     <div
-      class="
-        d-sm-block d-md-none
-        mt-4
-        bg-primary
-        bordered
-        fixed-bottom
-        boder-top
-      "
-      style="margin-top: 110px"
+      class="d-sm-block d-md-none bg-primary bordered fixed-bottom boder-top"
     >
       <div class="row px-3 py-2">
         <div class="col-3 m-0 p-0">

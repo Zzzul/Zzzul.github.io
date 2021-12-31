@@ -78,6 +78,7 @@ a{
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     image-rendering: pixelated;
+    /* object-fit: cover; */
     width: 50px;
 }
 
@@ -91,7 +92,7 @@ a{
 }
 
 img{
-    image-rendering: pixelated;
+    /* image-rendering: pixelated; */
 }
 
 a.nuxt-link-active {

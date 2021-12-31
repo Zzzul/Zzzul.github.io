@@ -2,8 +2,8 @@
   <div id="home">
     <desktop-navigation />
 
-    <div class="container mb-3">
-      <div class="row mb-4">
+    <div class="container mb-5">
+      <div class="row">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
@@ -26,8 +26,8 @@
 
         <!-- Desktop -->
         <div v-if="loading" class="d-none d-md-block mt-4">
-          <div class="row mb-4">
-            <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12 mb-3">
               <div class="card bordered p-0">
                 <div class="card-body p-4 text-center">
                   <marquee
@@ -46,8 +46,8 @@
 
         <!-- Mobile -->
         <div v-if="loading" class="d-sm-block d-md-none mt-4">
-          <div class="row mb-4">
-            <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12 mb-3">
               <div class="card bordered p-0">
                 <div class="card-body p-5 text-center">
                   <marquee
@@ -76,10 +76,10 @@
         <div class="text-center mt-4" v-if="postNotFound">
           <p>Post Not Found.</p>
         </div>
-
-        <Footer />
       </div>
     </div>
+
+    <Footer />
 
     <mobile-navigation />
   </div>

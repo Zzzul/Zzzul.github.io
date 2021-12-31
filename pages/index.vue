@@ -2,8 +2,8 @@
   <div id="home">
     <desktop-navigation />
 
-    <div class="container mb-4">
-      <div class="row mb-4">
+    <div class="container">
+      <div class="row">
         <breadcrumb>
           <li class="breadcrumb-item active text-secondary" aria-current="page">
             Home
@@ -11,7 +11,7 @@
         </breadcrumb>
 
         <!-- Card -->
-        <div class="col-md-12" id="main-content">
+        <div class="col-md-12 mb-3" id="main-content">
           <div class="card bordered">
             <div class="card-body p-5 text-center">
               <h4 class="mb-3">Hai!</h4>
@@ -91,10 +91,10 @@
             </div>
           </div>
         </div>
-
-        <Footer />
       </div>
     </div>
+
+    <Footer />
 
     <mobile-navigation />
   </div>

@@ -1,9 +1,9 @@
 <template>
-  <div id="home">
+  <div id="project">
     <desktop-navigation />
 
-    <div class="container mb-3">
-      <div class="row mb-4">
+    <div class="container">
+      <div class="row">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
@@ -13,8 +13,8 @@
 
         <!-- Desktop -->
         <div v-if="loading" class="d-none d-md-block">
-          <div class="row mb-4">
-            <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-4 mb-4">
               <div class="card bordered p-0">
                 <div class="card-body p-5">
                   <marquee
@@ -60,16 +60,18 @@
 
         <!-- Mobile -->
         <div v-if="loading" class="d-sm-block d-md-none">
-          <div class="col-md-12">
-            <div class="card bordered p-0">
-              <div class="card-body p-5">
-                <marquee
-                  behavior="alternate"
-                  onmouseover="this.stop()"
-                  onmouseout="this.start()"
-                  direction="right"
-                  >Loading..
-                </marquee>
+          <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="card bordered p-0">
+                <div class="card-body p-5">
+                  <marquee
+                    behavior="alternate"
+                    onmouseover="this.stop()"
+                    onmouseout="this.start()"
+                    direction="right"
+                    >Loading..
+                  </marquee>
+                </div>
               </div>
             </div>
           </div>
@@ -84,10 +86,10 @@
         >
           <ProjectCard :project="project" />
         </div>
-
-        <Footer />
       </div>
     </div>
+
+    <Footer />
 
     <mobile-navigation />
   </div>
