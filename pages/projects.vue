@@ -2,8 +2,8 @@
   <div id="home">
     <desktop-navigation />
 
-    <div class="container">
-      <div class="row mt-2 mb-4">
+    <div class="container mb-3">
+      <div class="row mb-4">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>

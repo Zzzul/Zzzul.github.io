@@ -2,8 +2,8 @@
   <div id="home">
     <desktop-navigation />
 
-    <div class="container">
-      <div class="row mt-2 mb-4">
+    <div class="container mb-3">
+      <div class="row mb-4">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
@@ -11,7 +11,7 @@
           <li class="breadcrumb-item active" aria-current="page">Blog</li>
         </breadcrumb>
 
-        <div class="col-md-12 mt-0 mb-4">
+        <div class="col-md-12 mt-0 mb-3">
           <div class="form-group">
             <input
               type="text"

@@ -1,7 +1,7 @@
 <template>
   <div class="card bordered">
-    <div class="card-body p-5 text-center">
-      <h5 class="mb-4 text-primary">#Tentang Saya</h5>
+    <div class="card-body py-5 px-4 text-center">
+      <h5 class="mb-4 text-primary">#About me</h5>
       <p>
         Hai, perkenalkan saya Mohammad Zulfahmi, seorang mahasiswa semester
         akhir jurusan Teknik Informatika di salah satu universitas swasta

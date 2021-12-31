@@ -2,8 +2,8 @@
   <div id="home">
     <desktop-navigation />
 
-    <div class="container">
-      <div class="row mt-2 mb-4">
+    <div class="container mb-3">
+      <div class="row mb-4">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
@@ -13,14 +13,19 @@
 
         <!-- About -->
         <div class="col-md-12">
-          <AboutDescription />
+          <about-description />
         </div>
 
         <div class="mb-5" id="skills"></div>
 
         <!-- Skills -->
+        <div class="col-md-12 mb-5">
+          <about-skill />
+        </div>
+
+        <!-- Contact -->
         <div class="col-md-12 mb-3">
-          <AboutSkill />
+          <about-contact />
         </div>
 
         <Footer />
