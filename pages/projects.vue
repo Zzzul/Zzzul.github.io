@@ -125,7 +125,7 @@ export default {
         this.loading = false
 
         this.projects = listProjects
-      }, 1500)
+      }, 1000)
     },
   },
   created() {

@@ -70,6 +70,10 @@ a{
     text-decoration: none;
 }
 
+button{
+    cursor: url('~assets/img/cursor/cursor-click.png'), auto !important;
+}
+
 .socmed-icon{
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -100,12 +104,12 @@ a.nuxt-link-active {
 }
 
 a.nuxt-link-exact-active {
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
   /* border-left: 3px dashed black;
   border-right: 3px dashed black; */
   border-bottom-width: 70% !important;
 
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 h1 {

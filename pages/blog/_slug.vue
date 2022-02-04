@@ -2,8 +2,8 @@
   <div id="home">
     <desktop-navigation />
 
-    <div class="container mb-3">
-      <div class="row mb-4">
+    <div class="container">
+      <div class="row">
         <breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
@@ -100,7 +100,7 @@ export default {
 
     setTimeout(() => {
       this.loading = false
-    }, 1500)
+    }, 1000)
   },
 }
 </script>
