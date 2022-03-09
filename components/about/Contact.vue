@@ -130,6 +130,7 @@
                 placeholder="Nama"
                 minlength="3"
                 name="nama"
+                :disabled="loading"
                 required
               />
             </div>
@@ -145,6 +146,7 @@
                 placeholder="Email"
                 min="5"
                 name="email"
+                :disabled="loading"
                 required
               />
             </div>
@@ -160,6 +162,7 @@
                 rows="6"
                 minlength="5"
                 name="pesan"
+                :disabled="loading"
                 required
               ></textarea>
             </div>

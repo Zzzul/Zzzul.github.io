@@ -125,7 +125,7 @@ export default {
         this.loading = false
 
         this.posts = articles
-      }, 1000)
+      }, 300)
     },
   },
   created() {

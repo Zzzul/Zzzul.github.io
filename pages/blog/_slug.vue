@@ -17,7 +17,7 @@
           </li>
         </breadcrumb>
 
-        <div class="col-md-12 mb-3">
+        <div class="col-md-12 mb-2">
           <div class="card bordered">
             <div class="card-body p-4">
               <div v-if="loading" class="text-center mt-3 mb-1">
@@ -100,7 +100,7 @@ export default {
 
     setTimeout(() => {
       this.loading = false
-    }, 1000)
+    }, 300)
   },
 }
 </script>
