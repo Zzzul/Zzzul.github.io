@@ -1,6 +1,6 @@
 <template>
   <div
-    class="card bordered-hover p-0"
+    class="card bordered-hover p-0 animated"
     :style="{ 'background-color': project.color }"
   >
     <div class="card-body p-3">
@@ -12,10 +12,7 @@
 
       <div v-if="project.tags" class="mb-2">
         <div v-for="tag of project.tags" :key="tag" class="d-inline-flex">
-          <small
-            style="font-size: 8px"
-            class="me-2 fw-light border border-1 border-dark tags"
-          >
+          <small style="font-size: 8px" class="me-2 fw-light tags">
             #{{ tag }}
           </small>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="card bordered">
-    <div class="card-body px-5 pt-5 pb-4">
-      <h5 class="text-primary text-center mb-4 font-weigth-bold">#Kemampuan</h5>
+    <div class="card-body py-5 px-4">
+      <h5 class="text-primary text-center mb-4 font-weigth-bold">#Skills</h5>
 
       <div class="row">
         <div class="col-md-1"></div>

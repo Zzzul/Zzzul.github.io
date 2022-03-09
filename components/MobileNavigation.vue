@@ -1,25 +1,25 @@
 <template>
   <div id="mobile-navigation">
-    <div class="d-sm-block d-md-none">
+    <div class="d-sm-block d-md-none m-0">
+      <br />
       <br />
       <br />
       <br />
     </div>
 
     <div
-      class="d-sm-block d-md-none mt-5 bg-primary bordered fixed-bottom"
-      style="margin-top: 130px"
+      class="d-sm-block d-md-none bg-primary bordered fixed-bottom boder-top"
     >
-      <div class="row px-3 pb-0 pt-2">
+      <div class="row px-3 py-2">
         <div class="col-3 m-0 p-0">
           <nuxt-link
             class="mb-0 py-2 nav-link text-dark text-center"
             to="/"
-            style="font-size: 13px"
+            style="font-size: 12px"
           >
             <span class="px-1">H</span>
             <br />
-            <small class="m-0 p-0" style="font-size: 9px">Home</small>
+            <small class="m-0 p-0" style="font-size: 8px">Home</small>
           </nuxt-link>
         </div>
 
@@ -27,11 +27,11 @@
           <nuxt-link
             :class="isAboutRoute()"
             to="/about"
-            style="font-size: 13px"
+            style="font-size: 12px"
           >
             <span class="px-1">A</span>
             <br />
-            <small class="m-0 p-0" style="font-size: 9px">About</small>
+            <small class="m-0 p-0" style="font-size: 8px">About</small>
           </nuxt-link>
         </div>
 
@@ -39,19 +39,19 @@
           <nuxt-link
             class="mb-0 py-2 nav-link text-dark text-center"
             to="/projects"
-            style="font-size: 13px"
+            style="font-size: 12px"
           >
             <span class="px-1">P</span>
             <br />
-            <small class="m-0 p-0" style="font-size: 9px">Projects</small>
+            <small class="m-0 p-0" style="font-size: 8px">Projects</small>
           </nuxt-link>
         </div>
 
         <div class="col-3 m-0 p-0">
-          <nuxt-link :class="isBlogRoute()" to="/blog" style="font-size: 13px">
+          <nuxt-link :class="isBlogRoute()" to="/blog" style="font-size: 12px">
             <span class="px-1">B</span>
             <br />
-            <small class="m-0 p-0" style="font-size: 9px">Blog</small>
+            <small class="m-0 p-0" style="font-size: 8px">Blog</small>
           </nuxt-link>
         </div>
       </div>

@@ -3,7 +3,7 @@
     <desktop-navigation />
 
     <div class="container">
-      <div class="row mt-4 mb-4">
+      <div class="row">
         <breadcrumb>
           <li class="breadcrumb-item active text-secondary" aria-current="page">
             Home
@@ -11,7 +11,7 @@
         </breadcrumb>
 
         <!-- Card -->
-        <div class="col-md-12" id="main-content">
+        <div class="col-md-12 mb-4" id="main-content">
           <div class="card bordered">
             <div class="card-body p-5 text-center">
               <h4 class="mb-3">Hai!</h4>
@@ -19,7 +19,7 @@
 
               <h2 class="mb-4">Web Developer</h2>
 
-              <a href="#" class="text-decoration-none" target="blank">
+              <a href="#" class="text-decoration-none animated" target="blank">
                 <img
                   src="~/assets/img/social-media/fb.webp"
                   class="mb-2 socmed-icon"
@@ -29,7 +29,7 @@
 
               <a
                 href="https://www.instagram.com/zzzzzul/"
-                class="text-decoration-none"
+                class="text-decoration-none animated"
                 target="blank"
               >
                 <img
@@ -41,7 +41,7 @@
 
               <a
                 href="https://github.com/Zzzul"
-                class="text-decoration-none"
+                class="text-decoration-none animated"
                 target="blank"
               >
                 <img
@@ -53,7 +53,7 @@
 
               <a
                 href="https://zzzul.medium.com/"
-                class="text-decoration-none"
+                class="text-decoration-none animated"
                 target="blank"
               >
                 <img
@@ -65,7 +65,7 @@
 
               <a
                 href="https://www.linkedin.com/in/muhammad-zulfahmi/"
-                class="text-decoration-none"
+                class="text-decoration-none animated"
                 target="blank"
               >
                 <img
@@ -77,7 +77,7 @@
 
               <a
                 href="mailto:mzulfahmi807@gmail.com"
-                class="text-decoration-none"
+                class="text-decoration-none animated"
                 target="blank"
               >
                 <img
@@ -91,10 +91,10 @@
             </div>
           </div>
         </div>
-
-        <Footer />
       </div>
     </div>
+
+    <Footer />
 
     <mobile-navigation />
   </div>
