@@ -11,6 +11,10 @@
           <li class="breadcrumb-item active" aria-current="page">Projects</li>
         </breadcrumb>
 
+        <div class="col-md-12 text-center mb-3">
+          <h4>#Open Source</h4>
+        </div>
+
         <!-- Desktop -->
         <div v-if="loading" class="d-none d-md-block">
           <div class="row">
@@ -117,7 +121,7 @@ export default {
     async getProjectsData() {
       const listProjects = await this.$content("projects")
         .only(["title", "description", "color", "source", "demo", "tags"])
-        .sortBy("createdAt", "desc")
+        .sortBy("title", "asc")
         .fetch()
         .catch((err) => console.log(err))
 

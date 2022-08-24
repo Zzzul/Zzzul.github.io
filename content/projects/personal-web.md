@@ -1,6 +1,6 @@
 ---
 title: Personal Website
-description: Website pribadi saya(website ini).
+description: Website pribadi saya (website ini).
 demo: '/'
 source: https://github.com/Zzzul/Zzzul.github.io
 slug: personal-website
