@@ -58,7 +58,7 @@
           <div class="card bordered-hover">
             <div class="card-body p-4">
               <h6 class="text-center m-0" style="line-height: 21px">
-                Halo, kamu telah mencapai penghujung halaman, terima kasih telah
+                Kamu telah mencapai penghujung halaman, terima kasih telah
                 membacanya hingga akhir. Semoga harimu menyenangkan.
               </h6>
             </div>
@@ -98,9 +98,7 @@ export default {
 
     this.post = post
 
-    setTimeout(() => {
-      this.loading = false
-    }, 300)
+    this.loading = false
   },
 }
 </script>

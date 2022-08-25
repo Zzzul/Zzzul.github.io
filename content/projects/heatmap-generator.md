@@ -5,5 +5,6 @@ demo: ''
 source: https://github.com/Evdigi-INA/Heatmap-Generator-with-Scale-SC
 slug: heatmap-generator
 color: '#ADC2A9'
+category: open-source
 tags: ['PHP', 'Collaboration']
 ---

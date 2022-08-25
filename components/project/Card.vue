@@ -1,7 +1,7 @@
 <template>
   <div
     class="card bordered-hover p-0 animated"
-    :style="{ 'background-color': project.color }"
+    style="background-color: #FDF6F0"
   >
     <div class="card-body p-3">
       <p class="mb-1 mt-1" style="font-size: 13px">
@@ -26,7 +26,7 @@
       >
         Demo
       </a>
-      <a :href="project.source" target="blank" style="font-size: 11px"
+      <a  v-if="project.source" :href="project.source" target="blank" style="font-size: 11px"
         >Source</a
       >
     </div>
@@ -38,6 +38,3 @@ export default {
   props: ["project"],
 }
 </script>
-
-<style>
-</style>

@@ -1,8 +1,10 @@
 ---
 title: Apa saja yang digunakan untuk membuat website ini ?
-description: Stack yang saya gunakan
+description: Teknologi yang saya gunakan dalam pembuatan website ini.
 slug: apa-saja-yang-digunakan-untuk-membuat-website-ini
 color: '#F7F2E7'
+tags: ['CSS', 'Javascript', 'Vue', 'Nuxt']
+ID: 2
 ---
 
 #### Programming language
@@ -28,6 +30,6 @@ Sebelumnya saya menggunakan Bootstrap untuk layout dan NES CCS untuk componentny
 
 Akhirnya saya memutuskan untuk tidak menggunakan NES CSS secara full dan hanya memakai icon dan cursornya saja, karena menurut saya terlalu berat jika menggunakan kedua framework tersebut sekaligus.
 
-Mungkin kedepannya saya akan membahas mengenai beberapa CSS framework yang 'unik' dan salah satunya adalah NES CSS. 
+Mungkin kedepannya saya akan membahas mengenai beberapa CSS framework yang 'unik' dan salah satunya adalah NES CSS. Update!!!, kamu bisa membacanya [sekarang.](/blog/css-framework-selain-bootstrap-dan-tailwind-yang-bisa-kamu-gunakan)
 
-Untuk source code website ini kamu bisa lihat [disini](https://github.com/Zzzul/Zzzul.github.io)
+Untuk source code website ini kamu bisa lihat [disini.](https://github.com/Zzzul/Zzzul.github.io)

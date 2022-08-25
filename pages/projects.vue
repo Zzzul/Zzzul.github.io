@@ -11,81 +11,33 @@
           <li class="breadcrumb-item active" aria-current="page">Projects</li>
         </breadcrumb>
 
-        <div class="col-md-12 text-center mb-3">
+        <div class="col-md-12 text-start mb-2">
           <h4>#Open Source</h4>
         </div>
 
-        <!-- Desktop -->
-        <div v-if="loading" class="d-none d-md-block">
-          <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card bordered p-0">
-                <div class="card-body p-5">
-                  <marquee
-                    behavior="alternate"
-                    onmouseover="this.stop()"
-                    onmouseout="this.start()"
-                    direction="right"
-                    >Loading..
-                  </marquee>
-                </div>
-              </div>
-            </div>
+        <ProjectLoading :loading="loading" />
 
-            <div class="col-md-4">
-              <div class="card bordered p-0">
-                <div class="card-body p-5">
-                  <marquee
-                    behavior="alternate"
-                    onmouseover="this.stop()"
-                    onmouseout="this.start()"
-                    direction="right"
-                    >Loading..
-                  </marquee>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card bordered p-0">
-                <div class="card-body p-5">
-                  <marquee
-                    behavior="alternate"
-                    onmouseover="this.stop()"
-                    onmouseout="this.start()"
-                    direction="right"
-                    >Loading..
-                  </marquee>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Mobile -->
-        <div v-if="loading" class="d-sm-block d-md-none">
-          <div class="row">
-            <div class="col-md-12 mb-4">
-              <div class="card bordered p-0">
-                <div class="card-body p-5">
-                  <marquee
-                    behavior="alternate"
-                    onmouseover="this.stop()"
-                    onmouseout="this.start()"
-                    direction="right"
-                    >Loading..
-                  </marquee>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project card -->
+        <!-- Open source project card -->
         <div
-          v-else
+          :if="!loading"
           class="col-sm-12 col-md-6 col-lg-4 mb-4"
-          v-for="project of projects"
+          v-for="project of openSourceProjects"
+          :key="project.slug"
+        >
+          <ProjectCard :project="project" />
+        </div>
+
+        <div class="col-md-12 text-start mt-3 mb-2">
+          <h4>#Commercial</h4>
+        </div>
+
+        <ProjectLoading :loading="loading" />
+
+        <!-- Commercial project card -->
+        <div
+          :if="!loading"
+          class="col-sm-12 col-md-6 col-lg-4 mb-4"
+          v-for="project of commercialProjects"
           :key="project.slug"
         >
           <ProjectCard :project="project" />
@@ -114,22 +66,30 @@ export default {
   data() {
     return {
       loading: true,
-      projects: [],
+      openSourceProjects: [],
+      commercialProjects: []
     }
   },
   methods: {
     async getProjectsData() {
-      const listProjects = await this.$content("projects")
-        .only(["title", "description", "color", "source", "demo", "tags"])
+      const listOpenSourceProjects = await this.$content("projects")
+        .only(["title", "description", "color", "source", "demo", "tags","category"])
+        .where({category: "open-source"})
         .sortBy("title", "asc")
         .fetch()
         .catch((err) => console.log(err))
 
-      setTimeout(() => {
+      const listCommercialProjects = await this.$content("projects")
+        .only(["title", "description", "color", "source", "demo", "tags","category"])
+        .where({category: "commercial"})
+        .sortBy("title", "asc")
+        .fetch()
+        .catch((err) => console.log(err))
+
         this.loading = false
 
-        this.projects = listProjects
-      }, 300)
+        this.openSourceProjects = listOpenSourceProjects
+        this.commercialProjects = listCommercialProjects
     },
   },
   created() {

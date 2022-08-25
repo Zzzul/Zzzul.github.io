@@ -109,8 +109,8 @@ export default {
   methods: {
     async getPostsData() {
       const articles = await this.$content("posts")
-        .only(["title", "description", "slug", "color"])
-        .sortBy("createdAt", "desc")
+        .only(["title", "description", "slug", "color", "tags"])
+        .sortBy("ID", "desc")
         .search(this.search)
         .fetch()
         .catch((err) => (this.postNotFound = true))
@@ -121,11 +121,9 @@ export default {
         this.postNotFound = false
       }
 
-      setTimeout(() => {
-        this.loading = false
+      this.loading = false
 
-        this.posts = articles
-      }, 300)
+      this.posts = articles
     },
   },
   created() {
