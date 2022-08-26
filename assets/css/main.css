@@ -12,7 +12,7 @@ samp {
 }
 
 .bordered-without-shadow{
-    border: 3px solid black !important;
+    border: 2px solid black !important;
 }
 
 .bordered,
@@ -26,9 +26,9 @@ samp {
     -webkit-box-shadow: -5px 5px 0px 1px rgb(34, 34, 34) !important;
     -moz-box-shadow: -5px 5px 0px 1px rgb(34, 34, 34) !important;
     box-shadow: -5px 5px 0px 0px rgb(34, 34, 34) !important;
-    border-radius: 3px !important;
-    border: 3px solid black;
-    /* border: 3px solid #191919; */
+    border-radius: 2px !important;
+    border: 2px solid black;
+    /* border: 2px solid #191919; */
 }
 
 .bordered-hover:hover,
@@ -36,10 +36,10 @@ samp {
 .bordered-hover:active {
     -webkit-transform: translateY(7px);
     transform: translateY(7px);
-    -webkit-box-shadow: -3px 2px 0px 1px rgb(34, 34, 34) !important;
-    -moz-box-shadow: -3px 2px 0px 1px rgb(34, 34, 34) !important;
-    box-shadow: -3px 2px 0px 0px rgb(34, 34, 34) !important;
-    border: 3px solid black;
+    -webkit-box-shadow: -2px 2px 0px 1px rgb(34, 34, 34) !important;
+    -moz-box-shadow: -2px 2px 0px 1px rgb(34, 34, 34) !important;
+    box-shadow: -2px 2px 0px 0px rgb(34, 34, 34) !important;
+    border: 2px solid black;
 }
 
 .bordered-hover:hover img {
@@ -48,7 +48,7 @@ samp {
 
 
 .boder-top{
-  border-top: 3px solid black;
+  border-top: 2px solid black;
 }
 
 .tags,
@@ -58,7 +58,7 @@ samp {
 
 .tags{
   border: 1px dashed black;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 #content{
@@ -100,16 +100,16 @@ a.nuxt-link-active {
 }
 
 a.nuxt-link-exact-active {
-  border-bottom: 3px solid black;
-  /* border-left: 3px dashed black;
-  border-right: 3px dashed black; */
+  border-bottom: 2px solid black;
+  /* border-left: 2px dashed black;
+  border-right: 2px dashed black; */
   border-bottom-width: 70% !important;
 
   /* border-radius: 5px; */
 }
 
 h1 {
-  font-size: 23px;
+  font-size: 22px;
 }
 
 h2 {
@@ -129,7 +129,7 @@ h5 {
 }
 
 h6 {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 p,li,label {
@@ -153,7 +153,7 @@ p {
 
 input,textarea{
   font-size: 12px !important;
-  border-radius: 3px !important;
+  border-radius: 2px !important;
   border: 1px solid black !important;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
@@ -163,9 +163,9 @@ input:active,
 input:focus,
 textarea:active,
 textarea:focus{
-  -webkit-box-shadow: -4px 3px 0px 1px rgb(34, 34, 34) !important;
-  -moz-box-shadow: -4px 3px 0px 1px rgb(34, 34, 34) !important;
-  box-shadow: -4px 3px 0px 0px rgb(34, 34, 34) !important;
+  -webkit-box-shadow: -4px 2px 0px 1px rgb(34, 34, 34) !important;
+  -moz-box-shadow: -4px 2px 0px 1px rgb(34, 34, 34) !important;
+  box-shadow: -4px 2px 0px 0px rgb(34, 34, 34) !important;
 }
 
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
@@ -184,9 +184,9 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
 .btn-close:active,
 .btn-close:focus,
 .btn-close:hover{
-  -webkit-box-shadow: -4px 3px 0px 1px rgb(34, 34, 34) !important;
-  -moz-box-shadow: -4px 3px 0px 1px rgb(34, 34, 34) !important;
-  box-shadow: -4px 3px 0px 0px rgb(34, 34, 34) !important;
+  -webkit-box-shadow: -4px 2px 0px 1px rgb(34, 34, 34) !important;
+  -moz-box-shadow: -4px 2px 0px 1px rgb(34, 34, 34) !important;
+  box-shadow: -4px 2px 0px 0px rgb(34, 34, 34) !important;
 }
 
 .btn-close{

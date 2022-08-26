@@ -29,7 +29,7 @@ Dan berikut adalah framework `CSS` antimainstream yang bisa kamu gunakan agar me
 #### NES.css
 > NES.css is a NES-style(8bit-like) CSS Framework.
 
-Dengan framework ini kamu bisa membuat tampilan website retro classic 8bit ala [NES game](https://www.google.com/search?q=NES+game&oq=NES+game&aqs=edge..69i57j0i512l7j69i64.2736j0j1&sourceid=chrome&ie=UTF-8). [NES.css](https://nostalgic-css.github.io/NES.css/) hanya menyediakan komponen saja, tidak [Bootstrap](https://getbootstrap.com/) yang juga terdapat layout/column jadi framework ini tidak dapat membuat websitemu menjadi responsive, kamu harus membuat custom `CSS` class sendiri, tenang untuk hal itu kamu bisa memakai `CSS` flexbox atau grid.
+Dengan framework ini kamu bisa membuat tampilan website retro classic 8bit ala [NES game](https://www.google.com/search?q=NES+game&oq=NES+game&aqs=edge..69i57j0i512l7j69i64.2736j0j1&sourceid=chrome&ie=UTF-8). [NES.css](https://nostalgic-css.github.io/NES.css/) hanya menyediakan komponen saja, tidak seperti [Bootstrap](https://getbootstrap.com/) yang juga terdapat layout/column jadi framework ini tidak dapat membuat websitemu menjadi responsive, kamu harus membuat custom `CSS` class sendiri, tenang untuk hal itu kamu bisa memakai `CSS` flexbox atau grid.
 
 Sebelumnya website ini juga memakai [NES.css](https://nostalgic-css.github.io/NES.css/) sebagai komponen dan [Bootstrap](https://getbootstrap.com/) sebagai layout, kemudian saya memutuskan hanya menggunakan [Bootstrap](https://getbootstrap.com/) saja tapi dengan style [NES.css](https://nostalgic-css.github.io/NES.css/), untuk alasannya kamu bisa baca [disini](/blog/apa-saja-yang-digunakan-untuk-membuat-website-ini).
 
@@ -60,7 +60,4 @@ Seperti namanya kedua framework `CSS` ini mempunyai tampilan ala-ala Windows 98 
 </div>
 
 Tetapi jika kamu masih mau menggunakan [Bootstrap](https://getbootstrap.com/), tapi berbeda dari [Bootstrap](https://getbootstrap.com/) pada umumnya, [Bootstrap](https://getbootstrap.com/) juga punya loh custom theme yang menarik & GRATIS, yaitu [Bootswatch.](https://bootswatch.com/)
-
-Sekian dari saya, hanya itu yang bisa saya sampaikan, semoga jelas dan dapat dipahami. Terima Kasih!.
-
 </div>
