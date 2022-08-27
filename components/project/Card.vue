@@ -1,6 +1,6 @@
 <template>
   <div
-    class="card bordered-hover p-0 animated"
+    class="card bordered-hover p-0 animated card-blog"
     style="background-color: #FDF6F0"
   >
     <div class="card-body p-3">
