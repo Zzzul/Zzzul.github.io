@@ -15,12 +15,12 @@ export default {
   head: {
     title: 'Muhammad Zulfahmi',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'id'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'my Website portofolio' }
+      { hid: 'description', name: 'description', content: 'Halo! saya Mohammad Zulfahmi, dan ini adalah personal website milik saya.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -29,10 +29,6 @@ export default {
         href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css',
         integrity: 'sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC',
         crossorigin: 'anonymous'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css'
       },
       {
         rel: 'stylesheet',
@@ -52,6 +48,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/main.css',
+    '~/assets/css/dark-mode.css',
     // '~/assets/css/skeleton-loading.css',
   ],
 
@@ -72,7 +69,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/color-mode'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

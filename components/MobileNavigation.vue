@@ -4,12 +4,18 @@
       <br />
       <br />
       <br />
-      <br />
+      <!-- <br /> -->
     </div>
 
-    <div
-      class="d-sm-block d-md-none bg-primary bordered fixed-bottom boder-top"
-    >
+    <div class="d-flex d-sm-block d-md-none fixed-bottom justify-content-end me-2" style="bottom: 85px;">
+        <select class="form-select form-select-sm p-1" aria-label=".form-select-sm example" v-model="$colorMode.preference" style="width: 110px;" id="theme">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+    </div>
+
+    <div class="d-sm-block d-md-none fixed-bottom bg-primary bordered boder-top">
       <div class="row px-3 py-2">
         <div class="col-3 m-0 p-0">
           <nuxt-link
@@ -56,6 +62,7 @@
         </div>
       </div>
     </div>
+    
   </div>
 </template>
 
