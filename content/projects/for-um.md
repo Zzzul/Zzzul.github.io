@@ -1,6 +1,6 @@
 ---
 title: For-um
-description: Mini forum built on Laravel.
+description: Mini yang dibangun menggunakan Laravel.
 demo: https://laravel-for-um.herokuapp.com/
 source: https://github.com/Zzzul/for-um
 slug: for-um

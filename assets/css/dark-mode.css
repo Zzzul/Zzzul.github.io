@@ -2,7 +2,8 @@
    .dark-mode body, 
    .dark-mode {
       color: rgba(255, 255, 255, 0.87);
-      background-color: #191919;
+      background-color: black;
+      /*191919*/
     }
 
     .dark-mode .bordered,
@@ -54,9 +55,9 @@
     .dark-mode .bordered-hover:active {
         -webkit-transform: translateY(7px);
         transform: translateY(7px);
-        -webkit-box-shadow: -2px 2px 0px 1px rgb(255, 255, 255) !important;
-        -moz-box-shadow: -2px 2px 0px 1px rgb(255, 255, 255) !important;
-        box-shadow: -2px 2px 0px 0px rgb(255, 255, 255) !important;
+        -webkit-box-shadow: -2px 2px 0px 1px whitesmoke !important;
+        -moz-box-shadow: -2px 2px 0px 1px whitesmoke !important;
+        box-shadow: -2px 2px 0px 0px whitesmoke !important;
         border: 2px solid whitesmoke;
     }
 
@@ -103,9 +104,9 @@
     .dark-mode input:focus,
     .dark-mode textarea:active,
     .dark-mode textarea:focus {
-      -webkit-box-shadow: -3px 2px 0px 1px rgb(255, 255, 255) !important;
-      -moz-box-shadow: -3px 2px 0px 1px rgb(255, 255, 255) !important;
-      box-shadow: -3px 2px 0px 0px rgb(255, 255, 255) !important;
+      -webkit-box-shadow: -3px 2px 0px 1px whitesmoke !important;
+      -moz-box-shadow: -3px 2px 0px 1px whitesmoke !important;
+      box-shadow: -3px 2px 0px 0px whitesmoke !important;
     }
 
     .dark-mode  a.nuxt-link-exact-active {

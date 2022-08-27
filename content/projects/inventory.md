@@ -1,6 +1,6 @@
 ---
 title: POS & Inventory
-description: Aplikasi Point of Sales and Inventory barang.
+description: Aplikasi Point of Sales & Inventory barang.
 demo: ''
 source: ''
 slug: post-and-inventory

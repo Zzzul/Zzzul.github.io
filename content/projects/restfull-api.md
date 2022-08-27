@@ -1,6 +1,6 @@
 ---
 title: RESTful API
-description: Example Laravel RESTful API with auth + upload file.
+description: Membuat Laravel RESTful API with auth + upload file.
 demo: ''
 source: https://github.com/Zzzul/Laravel-RESTful-API
 slug: restful-api
