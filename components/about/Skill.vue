@@ -98,7 +98,7 @@
                 title="±2 tahun"
               >
                 <img
-                  src="~/assets/img/skills/bootstrap.webp"
+                  src="~/assets/img/skills/bootstrap.svg"
                   alt="Bootstrap Logo"
                   width="30px"
                 />
