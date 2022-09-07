@@ -4,10 +4,20 @@
       <h5 class="mb-3 text-primary text-center">#Contact</h5>
 
       <div class="text-center mt-3" v-if="$colorMode.value === 'light'">
+        <a href="#" 
+          class="text-decoration-none animated" 
+          target="_blank">
+            <img
+              src="~/assets/img/social-media/fb.webp"
+              class="mb-2 socmed-icon"
+              alt="facebook logo"
+            />
+        </a>
+
         <a
           href="https://www.instagram.com/zzzzzul/"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/ig.webp"
@@ -19,7 +29,7 @@
         <a
           href="https://github.com/Zzzul"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/github.webp"
@@ -31,7 +41,7 @@
         <a
           href="https://zzzul.medium.com/"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/medium.webp"
@@ -43,7 +53,7 @@
         <a
           href="https://www.linkedin.com/in/muhammad-zulfahmi/"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/linkedin.webp"
@@ -55,7 +65,7 @@
         <a
           href="mailto:mzulfahmi807@gmail.com"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/gmail.webp"
@@ -68,10 +78,21 @@
       </div>
 
       <div class="text-center mt-3" v-if="$colorMode.value === 'dark'">
+        <a 
+          href="#" 
+          class="text-decoration-none animated" 
+          target="_blank">
+            <img
+              src="~/assets/img/social-media/dark/fb.webp"
+              class="mb-2 socmed-icon"
+              alt="facebook logo"
+            />
+        </a>
+
         <a
           href="https://www.instagram.com/zzzzzul/"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/dark/ig.webp"
@@ -83,7 +104,7 @@
         <a
           href="https://github.com/Zzzul"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/dark/github.webp"
@@ -95,7 +116,7 @@
         <a
           href="https://zzzul.medium.com/"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/dark/medium.webp"
@@ -107,7 +128,7 @@
         <a
           href="https://www.linkedin.com/in/muhammad-zulfahmi/"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/dark/linkedin.webp"
@@ -119,7 +140,7 @@
         <a
           href="mailto:mzulfahmi807@gmail.com"
           class="text-decoration-none animated"
-          target="blank"
+          target="_blank"
         >
           <img
             src="~/assets/img/social-media/dark/gmail.webp"
@@ -276,7 +297,7 @@ export default {
       })
         .then((response) => {
           // console.log("Success!", response)
-          console.log("Success!")
+          // console.log("Success!")
 
           document.forms["contact-form"].reset()
 
@@ -286,7 +307,7 @@ export default {
         })
         .catch((error) => {
           // console.error("Error!", error.message)
-          console.error("Error!")
+          // console.error("Error!")
 
           document.forms["contact-form"].reset()
 

@@ -44,7 +44,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Mari mengenal saya lebih dekat",
+        content: "Mari mengenal lebih dekat tentang saya.",
       },
     ],
   },

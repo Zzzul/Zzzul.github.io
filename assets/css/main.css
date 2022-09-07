@@ -164,6 +164,16 @@ input, textarea, select{
   border: 1px solid black !important;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
+  cursor: url('~assets/img/cursor/cursor-click.png'), auto !important;
+}
+
+option, 
+option:hover,
+option:active,
+option:focus,
+.cursor-click {
+  cursor: url('~assets/img/cursor/cursor-click.png'), auto !important;
+   /*cursor: url('~assets/img/cursor/cursor.png'), auto !important;*/
 }
 
 input:active,

@@ -20,7 +20,9 @@
               <h2 class="mb-4">Web Developer</h2>
              
               <div v-if="$colorMode.value === 'light'">
-                <a href="#" class="text-decoration-none animated" target="blank">
+                <a href="#" 
+                  class="text-decoration-none animated" 
+                  target="_blank">
                   <img
                     src="~/assets/img/social-media/fb.webp"
                     class="mb-2 socmed-icon"
@@ -31,7 +33,7 @@
                 <a
                   href="https://www.instagram.com/zzzzzul/"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/ig.webp"
@@ -43,7 +45,7 @@
                 <a
                   href="https://github.com/Zzzul"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/github.webp"
@@ -55,7 +57,7 @@
                 <a
                   href="https://zzzul.medium.com/"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/medium.webp"
@@ -67,7 +69,7 @@
                 <a
                   href="https://www.linkedin.com/in/muhammad-zulfahmi/"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/linkedin.webp"
@@ -77,9 +79,9 @@
                 </a>
 
                 <a
-                  href="mailto:mzulfahmi807@gmail.com"
+                  href="mailto:mohammad.zulfahmi03@gmail.com"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/gmail.webp"
@@ -92,7 +94,7 @@
               </div>
 
               <div v-if="$colorMode.value === 'dark'">
-                <a href="#" class="text-decoration-none animated" target="blank">
+                <a href="#" class="text-decoration-none animated" target="_blank">
                   <img
                     src="~/assets/img/social-media/dark/fb.webp"
                     class="mb-2 socmed-icon"
@@ -103,7 +105,7 @@
                 <a
                   href="https://www.instagram.com/zzzzzul/"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/dark/ig.webp"
@@ -115,7 +117,7 @@
                 <a
                   href="https://github.com/Zzzul"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/dark/github.webp"
@@ -127,7 +129,7 @@
                 <a
                   href="https://zzzul.medium.com/"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/dark/medium.webp"
@@ -139,7 +141,7 @@
                 <a
                   href="https://www.linkedin.com/in/muhammad-zulfahmi/"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/dark/linkedin.webp"
@@ -151,7 +153,7 @@
                 <a
                   href="mailto:mzulfahmi807@gmail.com"
                   class="text-decoration-none animated"
-                  target="blank"
+                  target="_blank"
                 >
                   <img
                     src="~/assets/img/social-media/dark/gmail.webp"
@@ -182,7 +184,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Hai!, sekarang saya punya webiste portofolio loh..",
+        content: "Hai!, saya Mohammad Zulfahmi dan ini adalah website pribadi saya.",
       },
     ],
   },

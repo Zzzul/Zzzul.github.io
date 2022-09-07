@@ -59,7 +59,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Projects open source & komersil yang sudah/sedang saya buat",
+        content: "Projects open source & komersil yang sudah/sedang saya buat.",
       },
     ],
   },
