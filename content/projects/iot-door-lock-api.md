@@ -6,5 +6,5 @@ source: https://github.com/Zzzul/iot-door-lock-api
 slug: iot-door-lock-api
 color: '#FFB3B3'
 category: open-source
-tags: ['IOT', 'PHP', 'Laravel', 'API']
+tags: ['iot', 'php', 'laravel', 'api']
 ---

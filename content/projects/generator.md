@@ -6,5 +6,5 @@ source: https://github.com/Zzzul/generator
 slug: generator
 color: '#C9BBCF'
 category: open-source
-tags: ['PHP', 'Laravel']
+tags: ['php', 'laravel']
 ---

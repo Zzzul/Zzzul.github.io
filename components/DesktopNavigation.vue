@@ -71,7 +71,7 @@
 
                   <li class="nav-item">
                     <select class="form-select form-select-sm mt-1 mb-0 px-4 py-1" aria-label=".form-select-sm example"v-model="$colorMode.preference">
-                      <option value="system" style="cursor: move !important;">System</option>
+                      <option value="system">System</option>
                       <option value="light">Light</option>
                       <option value="dark">Dark</option>
                     </select>

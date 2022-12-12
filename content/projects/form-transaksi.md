@@ -6,5 +6,5 @@ source: https://github.com/Zzzul/transaction-form
 slug: form-transaksi
 color: '#cff6cf'
 category: open-source
-tags: ['Javascript', 'Jquery']
+tags: ['javascript', 'jquery']
 ---

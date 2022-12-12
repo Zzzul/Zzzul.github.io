@@ -1,7 +1,8 @@
  @media (prefers-color-scheme: dark) {
    .dark-mode body, 
    .dark-mode {
-      color: rgba(255, 255, 255, 0.87);
+/*      color: rgba(255, 255, 255, 0.87);*/
+      color: #1B2430;
       background-color: black;
       /*191919*/
     }
@@ -64,6 +65,7 @@
     .dark-mode .tags{
       border: 1px dashed whitesmoke;
       border-radius: 2px;
+      color: whitesmoke;
     }
 
     .dark-mode .active-uri{
@@ -72,6 +74,10 @@
 
     .dark-mode .text-dark{
       color: white !important;
+    }
+
+    .dark-mode .footer{
+      color: whitesmoke;
     }
 
     .dark-mode .btn-close{

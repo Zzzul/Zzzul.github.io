@@ -3,7 +3,7 @@ title: First post
 description: Ini adalah post pertama yang dibuat menggunakan nuxtjs content module.
 slug: first-post
 color: '#E0ECE4'
-tags: ['Dummy']
+tags: ['dummy']
 ID: 1
 ---
 

@@ -14,7 +14,7 @@
         <div class="col-md-12 mb-4" id="main-content">
           <div class="card bordered">
             <div class="card-body p-5 text-center">
-              <h5 class="mb-3">Hai!</h5>
+              <h4 class="mb-3">Hai!</h4>
               <h3 class="mb-3">Saya Mohammad Zulfahmi</h3>
               <h4 class="mb-4">Web Developer, Freelance, & Tech enthusiast.</h4>
               <Socmed/>

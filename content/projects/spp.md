@@ -6,5 +6,5 @@ source: ''
 slug: spp
 color: '#FBF8F1'
 category: commercial
-tags: ['PHP', 'Laravel','Add-new-feature']
+tags: ['php', 'laravel', 'added-new-features']
 ---

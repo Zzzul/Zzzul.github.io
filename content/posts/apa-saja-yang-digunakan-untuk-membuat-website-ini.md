@@ -3,7 +3,7 @@ title: Apa saja yang digunakan untuk membuat website ini ?
 description: Teknologi yang saya gunakan dalam pembuatan website ini.
 slug: apa-saja-yang-digunakan-untuk-membuat-website-ini
 color: '#F7F2E7'
-tags: ['CSS', 'Javascript', 'Vue', 'Nuxt']
+tags: ['css', 'javascript', 'vue', 'nuxt']
 ID: 2
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: MJS Sistem
-description: Website internal untuk PT Marindo Jaya Sejahtera.
+description: Membantu teman saya dalam mengembangkan website internal pada PT. Marindo Jaya Sejahtera.
 demo: ''
 source: ''
 slug: mjs
 color: '#D3CEDF'
 category: commercial
-tags: ['PHP', 'Laravel','From scratch']
+tags: ['php', 'laravel', 'added-new-features']
 ---

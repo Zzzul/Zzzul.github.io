@@ -6,5 +6,5 @@ source: https://github.com/Zzzul/iot-door-lock
 slug: iot-door-lock
 color: '#FFDBA4'
 category: open-source
-tags: ['IOT', 'NodeMCU', 'C++']
+tags: ['iot', 'nodemcu', 'arduino']
 ---

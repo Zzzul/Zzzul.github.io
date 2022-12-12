@@ -6,5 +6,5 @@ source: https://github.com/Zzzul/pengingat-tugas
 slug: pengingat-tugas
 color: '#DBE6FD'
 category: open-source
-tags: ['PHP', 'Laravel', 'Livewire']
+tags: ['php', 'laravel', 'livewire']
 ---

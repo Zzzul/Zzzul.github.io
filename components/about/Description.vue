@@ -10,7 +10,7 @@
       </p>
 
       <p>
-        Saya juga seorang Freelance Web Developer bersama dengan teman saya, biasanya menggunakan
+        Saya juga seorang Freelance Web Developer bersama dengan teman saya di <a href="https://evdigi.my.id/" target="blank">Byan Tech (Evdigi)</a>, biasanya menggunakan
         <a href="https://www.php.net/" target="blank">PHP</a> dan tentunya 
         <a href="https://laravel.com/" target="blank">Laravel</a> sebagai frameworknya, dengan tambahan 
         <a href="https://developer.mozilla.org/id/docs/Web/CSS" target="blank">CSS</a> atau 

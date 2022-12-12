@@ -3,7 +3,7 @@ title: Framework CSS selain Bootstrap dan Tailwind yang (mungkin) belum kamu ket
 description: Dengan menggunakan Framework CSS antimainstream berikut, akan membuat website kamu menjadi lebih unik.
 slug: css-framework-selain-bootstrap-dan-tailwind-yang-bisa-kamu-gunakan
 color: '#F8F9D7'
-tags: ['CSS']
+tags: ['css']
 ID: 3
 ---
 
