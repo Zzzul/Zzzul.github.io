@@ -1,6 +1,6 @@
 ---
 title: Label
-description: Membantu dalam pembuatan label Qrcode dan nomor seri produk, yang digunakan untuk mengetahui keaslian produk.
+description: Label adalah sebuah aplikasi yang dapat membantu dalam pembuatan label Qrcode dan nomor seri produk, yang digunakan untuk mengetahui keaslian produk.
 demo: ''
 source: ''
 slug: label

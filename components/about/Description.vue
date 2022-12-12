@@ -3,7 +3,7 @@
     <div class="card-body py-5 px-4 text-center">
       <h5 class="mb-4 text-primary">#About me</h5>
       <p>
-        Hai, perkenalkan saya Mohammad Zulfahmi, Saya memiliki kemampuan di bidang 
+        Hai, perkenalkan saya Mohammad Zulfahmi, saya memiliki kemampuan di bidang 
         <a href="https://www.google.com/search?q=web+programming&oq=web+pro&aqs=edge.3.0i131i433i512j69i57j0i512l4j69i65l3.4844j0j4&sourceid=chrome&ie=UTF-8" target="blank">Web Programming</a>, khusunya pada bagian 
         <a href="https://www.google.com/search?q=Backend+Development&oq=Backend+Development&aqs=edge..69i57j0i512l7j69i64.529j0j9&sourceid=chrome&ie=UTF-8" target="blank">Backend Development</a> menggunakan 
         <a href="https://laravel.com/" target="blank">Laravel</a> dengan pengalaman selama <span title="Kurang lebih">±</span> 2 tahun.
