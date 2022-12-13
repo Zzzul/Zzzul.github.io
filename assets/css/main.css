@@ -93,6 +93,10 @@ button{
     width: 50px;
 }
 
+.custom-nav-item{
+  font-size: 13px;
+}
+
 .socmed-icon:hover{
     -webkit-transform: translateY(5px);
     transform: translateY(5px);

@@ -16,7 +16,7 @@
             <div class="card-body p-5 text-center">
               <h4 class="mb-3">Hai!</h4>
               <h3 class="mb-3">Saya Mohammad Zulfahmi</h3>
-              <h4 class="mb-4">Web Developer, Freelance, & Tech enthusiast.</h4>
+              <h5 class="mb-4">Web Developer, Freelance, & Tech Enthusiast.</h5>
               <Socmed/>
             </div>
           </div>

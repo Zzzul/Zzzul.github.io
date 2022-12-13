@@ -28,7 +28,7 @@
         </div>
 
         <div class="col-md-12 text-start mt-3 mb-2">
-          <h4 class="text-primary">#Commercial</h4>
+          <h4 class="text-primary">#Freelance</h4>
         </div>
 
         <ProjectLoading :loading="loading" />

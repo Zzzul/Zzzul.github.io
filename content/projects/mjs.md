@@ -1,6 +1,6 @@
 ---
 title: MJS Sistem
-description: Membantu teman saya dalam mengembangkan website internal pada PT. Marindo Jaya Sejahtera.
+description: Mengembangkan website internal pada PT. Marindo Jaya Sejahtera.
 demo: ''
 source: ''
 slug: mjs
