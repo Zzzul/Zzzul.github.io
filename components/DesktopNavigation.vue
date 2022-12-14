@@ -7,7 +7,6 @@
             class="
               navbar navbar-expand-lg navbar-light
               bg-primary
-              mb-5
               bordered
             "
             id="desktop-nav"

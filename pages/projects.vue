@@ -4,12 +4,12 @@
 
     <div class="container">
       <div class="row">
-        <breadcrumb>
+        <Breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
           </li>
           <li class="breadcrumb-item active" aria-current="page">Projects</li>
-        </breadcrumb>
+        </Breadcrumb>
 
         <div class="col-md-12 text-start mb-2">
           <h4 class="text-primary">#Open Source</h4>
