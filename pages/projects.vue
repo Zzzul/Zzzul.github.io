@@ -4,12 +4,12 @@
 
     <div class="container">
       <div class="row">
-        <breadcrumb>
+        <Breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
           </li>
           <li class="breadcrumb-item active" aria-current="page">Projects</li>
-        </breadcrumb>
+        </Breadcrumb>
 
         <div class="col-md-12 text-start mb-2">
           <h4 class="text-primary">#Open Source</h4>
@@ -59,7 +59,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Projects open source & komersil yang sudah/sedang saya buat.",
+        content: "Projects open source & freelance yang sudah/sedang saya buat.",
       },
     ],
   },
@@ -92,8 +92,8 @@ export default {
         this.commercialProjects = listCommercialProjects
     },
   },
-  created() {
-    this.getProjectsData()
+  async mounted() {
+    await this.getProjectsData()
   },
 }
 </script>

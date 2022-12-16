@@ -9,22 +9,26 @@
 
     .dark-mode .bordered,
     .dark-mode .bordered-hover {
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        -webkit-transition-property: transform;
-        transition-property: transform;
-        -webkit-transition-timing-function: ease-out;
-        transition-timing-function: ease-out;
-        -webkit-box-shadow: -5px 5px 0px 1px whitesmoke !important;
-        -moz-box-shadow: -5px 5px 0px 1px whitesmoke !important;
-        box-shadow: -5px 5px 0px 0px whitesmoke !important;
-        border-radius: 2px !important;
-        border: 2px solid whitesmoke;
-        /* border: 2px solid #191919; */
+      -webkit-box-shadow: 4px 4px 0px 1px whitesmoke !important;
+      -moz-box-shadow: 4px 4px 0px 1px whitesmoke !important;
+      box-shadow: 4px 4px 0px 0px whitesmoke !important;
+      border: solid 4px whitesmoke;
     }
 
     .dark-mode .bordered-without-shadow{
-        border: 2px solid whitesmoke !important;
+      border: solid 4px whitesmoke !important;
+    }
+
+    .dark-mode .custom-breadcrumb {
+      -webkit-box-shadow: 4px 4px 0px 1px whitesmoke !important;
+      -moz-box-shadow: 4px 4px 0px 1px whitesmoke !important;
+      box-shadow: 4px 4px 0px 0px whitesmoke !important;
+      border: solid 4px whitesmoke;
+      background-color: #242424;
+    }
+
+    .dark-mode .ol-breadcrumb{
+      background-color: #242424;
     }
 
     .dark-mode .card-body{
@@ -33,10 +37,6 @@
 
     .dark-mode .bordered{
       color: whitesmoke !important;
-    }
-
-    .dark-mode .breadcrumb{
-      background-color: #242424;
     }
 
     .dark-mode .breadcrumb-item{
@@ -56,10 +56,11 @@
     .dark-mode .bordered-hover:active {
         -webkit-transform: translateY(7px);
         transform: translateY(7px);
-        -webkit-box-shadow: -2px 2px 0px 1px whitesmoke !important;
-        -moz-box-shadow: -2px 2px 0px 1px whitesmoke !important;
-        box-shadow: -2px 2px 0px 0px whitesmoke !important;
-        border: 2px solid whitesmoke;
+        -webkit-box-shadow: 2px 2px 0px 1px whitesmoke !important;
+        -moz-box-shadow: 2px 2px 0px 1px whitesmoke !important;
+        box-shadow: 2px 2px 0px 0px whitesmoke !important;
+        border: solid 4px whitesmoke;
+        overflow: hidden;
     }
 
     .dark-mode .tags{
@@ -81,23 +82,39 @@
     }
 
     .dark-mode .btn-close{
-      border-radius: 2px !important;
       border: 1px solid white !important;
       font-size: 11px;
       padding: 10px !important;
       color: white !important;
       justify-content: center;
+      -webkit-box-shadow: 4px 2px 0px 1px whitesmoke !important;
+      -moz-box-shadow: 4px 2px 0px 1px whitesmoke !important;
+      box-shadow: 4px 2px 0px 0px whitesmoke !important;
     }
 
     .dark-mode .btn-primary{
-      border-radius: 2px !important;
       border: 2px solid white !important;
       font-size: 12px;
+      -webkit-box-shadow: 4px 2px 0px 1px whitesmoke !important;
+      -moz-box-shadow: 4px 2px 0px 1px whitesmoke !important;
+      box-shadow: 4px 2px 0px 0px whitesmoke !important;
+    }
+
+     .dark-mode .btn-primary:active,
+     .dark-mode .btn-primary:focus,
+     .dark-mode .btn-primary:hover,
+     .dark-mode .btn-close:active,
+     .dark-mode .btn-close:focus,
+     .dark-mode .btn-close:hover{
+      -webkit-box-shadow: 2px 2px 0px 1px whitesmoke !important;
+      -moz-box-shadow: 2px 2px 0px 1px whitesmoke !important;
+      box-shadow: 2px 2px 0px 0px whitesmoke !important;
     }
 
     .dark-mode input,
-    .dark-mode textarea {
-      border: 1px solid white !important;
+    .dark-mode textarea,
+    .dark-mode select {
+      border: 2px solid white !important;
       background-color: #413F42 !important;
       color: white !important;
     }
@@ -109,13 +126,15 @@
     .dark-mode input:active,
     .dark-mode input:focus,
     .dark-mode textarea:active,
-    .dark-mode textarea:focus {
-      -webkit-box-shadow: -3px 2px 0px 1px whitesmoke !important;
-      -moz-box-shadow: -3px 2px 0px 1px whitesmoke !important;
-      box-shadow: -3px 2px 0px 0px whitesmoke !important;
+    .dark-mode textarea:focus,
+    .dark-mode select:active,
+    .dark-mode select:focus {
+      -webkit-box-shadow: 4px 2px 0px 1px whitesmoke !important;
+      -moz-box-shadow: 4px 2px 0px 1px whitesmoke !important;
+      box-shadow: 4px 2px 0px 0px whitesmoke !important;
     }
 
-    .dark-mode  a.nuxt-link-exact-active {
+    .dark-mode a.nuxt-link-exact-active {
       border-bottom: 2px solid white;
       border-bottom-width: 70% !important;
     }
