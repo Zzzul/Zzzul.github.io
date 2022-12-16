@@ -93,7 +93,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Tulisan yang saya buat dan berharap bisa bermanfaat untuk kamu,  biasanya tentang Web Programming/IT.",
+        content: "Tulisan yang saya buat biasanya tentang Web Programming/IT, dan berharap bisa bermanfaat untuk kamu.",
       },
     ],
   },
@@ -125,8 +125,8 @@ export default {
       this.posts = articles
     },
   },
-  created() {
-    this.getPostsData()
+  async mounted() {
+    await this.getPostsData()
   },
 }
 </script>

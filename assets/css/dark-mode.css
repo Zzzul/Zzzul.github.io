@@ -112,8 +112,9 @@
     }
 
     .dark-mode input,
-    .dark-mode textarea {
-      border: 1px solid white !important;
+    .dark-mode textarea,
+    .dark-mode select {
+      border: 2px solid white !important;
       background-color: #413F42 !important;
       color: white !important;
     }
@@ -125,7 +126,9 @@
     .dark-mode input:active,
     .dark-mode input:focus,
     .dark-mode textarea:active,
-    .dark-mode textarea:focus {
+    .dark-mode textarea:focus,
+    .dark-mode select:active,
+    .dark-mode select:focus {
       -webkit-box-shadow: 4px 2px 0px 1px whitesmoke !important;
       -moz-box-shadow: 4px 2px 0px 1px whitesmoke !important;
       box-shadow: 4px 2px 0px 0px whitesmoke !important;

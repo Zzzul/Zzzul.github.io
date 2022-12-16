@@ -59,7 +59,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Projects open source & komersil yang sudah/sedang saya buat.",
+        content: "Projects open source & freelance yang sudah/sedang saya buat.",
       },
     ],
   },
@@ -92,8 +92,8 @@ export default {
         this.commercialProjects = listCommercialProjects
     },
   },
-  created() {
-    this.getProjectsData()
+  async mounted() {
+    await this.getProjectsData()
   },
 }
 </script>
