@@ -1,5 +1,3 @@
-# my-first-blog
-
 ## Build Setup
 
 ```bash
