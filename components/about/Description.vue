@@ -28,7 +28,7 @@
       </p> -->
 
       <p>Berikut daftar kemampuan yang saya miliki kamu bisa melihatnya dibawah
-        <a href="#skills">sini</a>, untuk melihat CV dan sertifikat yang sudah saya dapatkan kamu bisa <a target="_blank" href="/pdf/cv.pdf">kesini</a>.
+        <a href="#skills">sini</a>, dan untuk melihat CV atau sertifikat yang sudah saya dapatkan kamu bisa <a target="_blank" href="/pdf/cv.pdf">kesini</a>.
       </p>
     </div>
   </div>
