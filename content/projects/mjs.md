@@ -6,5 +6,5 @@ source: ''
 slug: mjs
 color: '#D3CEDF'
 category: commercial
-tags: ['php', 'laravel', 'added-new-features']
+tags: ['php', 'laravel', 'added-new-features', 'freelance', 'bootstrap']
 ---

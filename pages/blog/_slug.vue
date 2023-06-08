@@ -1,10 +1,9 @@
 <template>
   <div id="home">
-    <desktop-navigation />
-
+    <DesktopNavigation />
     <div class="container">
       <div class="row">
-        <breadcrumb>
+        <Breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
           </li>
@@ -15,13 +14,11 @@
             <span v-if="loading">...</span>
             <span v-else>{{ post.slug }}</span>
           </li>
-        </breadcrumb>
-
+        </Breadcrumb>
         <div class="col-md-12 mb-2">
           <div class="card bordered">
             <div class="card-body p-4">
               <div v-if="loading" class="text-center mt-3 mb-1">
-                <!-- <h6>Loading..</h6> -->
                 <div class="d-none d-md-block">
                   <!-- Desktop -->
                   <marquee
@@ -53,9 +50,8 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-12 mb-3 mt-5" v-if="!loading">
-          <div class="card bordered-hover">
+          <div class="card bordered">
             <div class="card-body p-4">
               <h6 class="text-center m-0" style="line-height: 21px">
                 Kamu telah mencapai penghujung halaman, terima kasih telah
@@ -64,12 +60,10 @@
             </div>
           </div>
         </div>
-
         <Footer />
       </div>
     </div>
-
-    <mobile-navigation />
+    <MobileNavigation />
   </div>
 </template>
 

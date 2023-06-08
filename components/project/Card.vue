@@ -1,7 +1,7 @@
 <template>
   <div
     class="card bordered-hover p-0 animated card-blog"
-    style="background-color: #FDF6F0"
+    style="background-color: #ffffff"
   >
     <div class="card-body p-3">
       <p class="mb-1 mt-1" style="font-size: 13px">

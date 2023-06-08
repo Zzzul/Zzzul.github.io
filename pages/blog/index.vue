@@ -1,26 +1,19 @@
 <template>
   <div id="home">
-    <desktop-navigation />
-
+    <DesktopNavigation />
     <div class="container mb-5">
       <div class="row">
-        <breadcrumb>
+        <Breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
           </li>
           <li class="breadcrumb-item active" aria-current="page">Blog</li>
-        </breadcrumb>
+        </Breadcrumb>
 
         <div class="col-md-12 mt-0 mb-3">
           <div class="form-group">
-            <input
-              type="text"
-              v-model="search"
-              class="form-control"
-              placeholder="Search..."
-              @keyup="getPostsData"
-              @keydown="getPostsData"
-            />
+            <input type="text" v-model="search" class="form-control" placeholder="Search..." @keyup="getPostsData"
+              @keydown="getPostsData" />
           </div>
         </div>
 
@@ -30,13 +23,8 @@
             <div class="col-md-12 mb-3">
               <div class="card bordered p-0">
                 <div class="card-body p-4 text-center">
-                  <marquee
-                    behavior="alternate"
-                    onmouseover="this.stop()"
-                    onmouseout="this.start()"
-                    direction="right"
-                    width="20%"
-                    >Loading..
+                  <marquee behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()" direction="right"
+                    width="20%">Loading..
                   </marquee>
                 </div>
               </div>
@@ -50,12 +38,8 @@
             <div class="col-md-12 mb-3">
               <div class="card bordered p-0">
                 <div class="card-body p-5 text-center">
-                  <marquee
-                    behavior="alternate"
-                    onmouseover="this.stop()"
-                    onmouseout="this.start()"
-                    direction="right"
-                    >Loading..
+                  <marquee behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()" direction="right">
+                    Loading..
                   </marquee>
                 </div>
               </div>
@@ -64,12 +48,7 @@
         </div>
 
         <!-- Post card -->
-        <div
-          class="col-md-12 mt-4"
-          v-else
-          v-for="post of posts"
-          :key="post.slug"
-        >
+        <div class="col-md-12 mt-4" v-else v-for="post of posts" :key="post.slug">
           <BlogCard :post="post" />
         </div>
 
@@ -78,10 +57,8 @@
         </div>
       </div>
     </div>
-
     <Footer />
-
-    <mobile-navigation />
+    <MobileNavigation />
   </div>
 </template>
 

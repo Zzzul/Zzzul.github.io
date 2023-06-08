@@ -1,32 +1,27 @@
 <template>
   <div id="home">
-    <desktop-navigation />
-
+    <DesktopNavigation />
     <div class="container">
       <div class="row">
-        <breadcrumb>
+        <Breadcrumb>
           <li class="breadcrumb-item active text-secondary" aria-current="page">
             Home
           </li>
-        </breadcrumb>
-
-        <!-- Card -->
+        </Breadcrumb>
         <div class="col-md-12 mb-4" id="main-content">
           <div class="card bordered">
             <div class="card-body p-5 text-center">
-              <h4 class="mb-3">Hai!</h4>
-              <h3 class="mb-3">Saya Mohammad Zulfahmi</h3>
-              <h5 class="mb-4">Web Developer, Freelance, & Tech Enthusiast.</h5>
+              <h5 class="mb-3">Hai!</h5>
+              <h4 class="mb-3">Saya Mohammad Zulfahmi,</h4>
+              <h6 class="mb-4">ini adalah website pribadi milik saya.</h6>
               <Socmed/>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <Footer />
-
-    <mobile-navigation />
+    <MobileNavigation />
   </div>
 </template>
 

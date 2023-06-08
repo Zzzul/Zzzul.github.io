@@ -1,7 +1,6 @@
 <template>
   <div id="project">
-    <desktop-navigation />
-
+    <DesktopNavigation />
     <div class="container">
       <div class="row">
         <Breadcrumb>
@@ -10,11 +9,9 @@
           </li>
           <li class="breadcrumb-item active" aria-current="page">Projects</li>
         </Breadcrumb>
-
         <div class="col-md-12 text-start mb-2">
           <h4 class="text-primary">#Open Source</h4>
         </div>
-
         <ProjectLoading :loading="loading" />
 
         <!-- Open source project card -->
@@ -28,12 +25,12 @@
         </div>
 
         <div class="col-md-12 text-start mt-3 mb-2">
-          <h4 class="text-primary">#Freelance</h4>
+          <h4 class="text-primary">#Closed Source</h4>
         </div>
 
         <ProjectLoading :loading="loading" />
 
-        <!-- Commercial project card -->
+        <!-- Closed project card -->
         <div
           :if="!loading"
           class="col-sm-12 col-md-6 col-lg-4 mb-4"
@@ -44,10 +41,9 @@
         </div>
       </div>
     </div>
-
     <Footer />
 
-    <mobile-navigation />
+    <MobileNavigation />
   </div>
 </template>
 

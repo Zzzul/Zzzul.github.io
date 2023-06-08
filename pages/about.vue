@@ -1,38 +1,28 @@
 <template>
   <div id="home">
-    <desktop-navigation />
-
+    <DesktopNavigation/>
     <div class="container">
       <div class="row">
-        <breadcrumb>
+        <Breadcrumb>
           <li class="breadcrumb-item">
             <nuxt-link to="/" class="text-decoration-none">Home</nuxt-link>
           </li>
           <li class="breadcrumb-item active" aria-current="page">About</li>
-        </breadcrumb>
-
-        <!-- About -->
+        </Breadcrumb>
         <div class="col-md-12">
-          <about-description />
+          <AboutDescription />
         </div>
-
         <div class="mb-5" id="skills"></div>
-
-        <!-- Skills -->
         <div class="col-md-12 mb-5">
-          <about-skill />
+          <AboutSkill />
         </div>
-
-        <!-- Contact -->
         <div class="col-md-12 mb-4">
-          <about-contact />
+          <AboutContact />
         </div>
       </div>
     </div>
-
     <Footer />
-
-    <mobile-navigation />
+    <MobileNavigation/>
   </div>
 </template>
 
