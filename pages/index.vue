@@ -11,9 +11,9 @@
         <div class="col-md-12 mb-4" id="main-content">
           <div class="card bordered">
             <div class="card-body p-5 text-center">
-              <h5 class="mb-3">Hai!</h5>
-              <h5 class="mb-3">Saya Mohammad Zulfahmi,</h5>
-              <h6 class="mb-4">dan ini adalah website pribadi milik saya.</h6>
+              <h6 class="mb-3">Hai!</h6>
+              <h6 class="mb-3">Saya Mohammad Zulfahmi,</h6>
+              <h6 class="mb-4">Dan ini adalah website pribadi milik saya.</h6>
               <Socmed/>
             </div>
           </div>
