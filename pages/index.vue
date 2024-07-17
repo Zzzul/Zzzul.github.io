@@ -14,7 +14,7 @@
               <h6 class="mb-3">Hai!</h6>
               <h6 class="mb-3">Saya Mohammad Zulfahmi,</h6>
               <h6 class="mb-4">Dan ini adalah website pribadi milik saya.</h6>
-              <Socmed/>
+             <!--  <Socmed/>  -->
             </div>
           </div>
         </div>
